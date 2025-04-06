@@ -1,0 +1,589 @@
+@media screen and (min-width: 1023px) {
+
+    /* Headings */
+    .mottohead h3 {
+        color: var(--primary);
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+    /* Header */
+    .header {
+        background-color: var(--light);
+        height: 600px;
+        position: relative;
+    }
+
+    .header video {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 0;
+    }
+
+    .header .headercntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+
+    .header .headerdiv .headercntnt h6 {
+        color: var(--dark);
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .header .headerdiv .headercntnt h3 {
+        color: var(--dark);
+        font-size: 50px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: "Bangers", system-ui;
+        width: 70%;
+        text-align: center;
+    }
+
+    /* Message */
+    .message {
+        background-color: var(--primary);
+        padding: 50px 0px;
+        margin-top: 50px;
+        height: 500px !important;
+    }
+
+    .messagediv {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .messageleft {
+        position: relative !important;
+    }
+
+    .messageleft img {
+        position: absolute;
+        top: -20%;
+        left: 5%;
+    }
+
+    .messageright h5 {
+        color: var(--light);
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .messageright h4 {
+        width: 85%;
+        color: var(--light);
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .messageright h6 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 25px;
+    }
+
+    /* Motto */
+    .motto {
+        margin-top: 50px;
+    }
+
+    .mottodiv {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Motto Carousel */
+    .servicescslmain {
+        margin: 50px auto 50px auto;
+    }
+
+    #carousel2 .splide__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .card1 {
+        height: 410px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    .card1 .card-content {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        border: 1px solid #D9D9D9;
+        border-radius: 8px;
+    }
+
+    .card1 h5 {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .card1 p {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        display: none;
+    }
+
+    .cardimg {
+        height: 350px;
+        padding: 10px;
+        transition: height 0.5s ease-in;
+    }
+
+    .cardimg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .card-content:hover .cardimg {
+        height: 200px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    /* .card-content:hover .cardimg img {
+        object-fit: contain;
+        object-position: center;
+    } */
+
+    .card-content:hover {
+        background: linear-gradient(90deg, rgba(181, 44, 45, 1) 0%, rgba(196, 19, 20, 1) 50%, rgba(82, 4, 5, 1) 100%);
+        color: #fff;
+    }
+
+    .card-content:hover p {
+        display: block;
+    }
+
+    .card-body {
+        padding: 5px 10px;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    /* Headings */
+    .mottohead h3 {
+        color: var(--primary);
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+    /* Header */
+    .header {
+        background-color: var(--light);
+        height: 500px;
+        position: relative;
+    }
+
+    .header video {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 0;
+    }
+
+    .header .headercntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+
+    .header .headerdiv .headercntnt h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .header .headerdiv .headercntnt h3 {
+        color: var(--dark);
+        font-size: 45px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: "Bangers", system-ui;
+        width: 70%;
+        text-align: center;
+    }
+
+    /* Message */
+    .message {
+        background-color: var(--primary);
+        padding: 30px 0px;
+        margin-top: 50px;
+        height: 100% !important;
+    }
+
+    .messagediv {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    .messageleft {
+        position: relative !important;
+    }
+
+    .messageright h5 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 15px !important;
+    }
+
+    .messageright h4 {
+        width: 90%;
+        color: var(--light);
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        margin-bottom: 15px !important;
+    }
+
+    .messageright h6 {
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 450;
+        line-height: 25px;
+        margin-bottom: 15px !important;
+    }
+    
+    /* Motto */
+    .motto {
+        margin-top: 50px;
+    }
+
+    .mottodiv {
+        width: 95%;
+        margin: auto;
+    }
+
+    /* Motto Carousel */
+    .servicescslmain {
+        margin-top: 50px auto 50px auto;
+    }
+
+    #carousel2 .splide__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .card1 {
+        height: 460px;
+        overflow: hidden;
+        background-color: #fff;
+        margin-bottom: 15px;
+    }
+    
+    .card1 .card-content {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        border: 1px solid #D9D9D9;
+        border-radius: 8px;
+    }
+
+    .card1 h5 {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .card1 p {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        display: none;
+    }
+
+    .cardimg {
+        height: 400px;
+        padding: 10px;
+        transition: height 0.5s ease-in;
+    }
+
+    .cardimg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .card-content:hover .cardimg {
+        height: 230px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .card-content:hover {
+        background: linear-gradient(90deg, rgba(181, 44, 45, 1) 0%, rgba(196, 19, 20, 1) 50%, rgba(82, 4, 5, 1) 100%);
+        color: #fff;
+    }
+
+    .card-content:hover p {
+        display: block;
+    }
+
+    .card-body {
+        padding: 5px 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Headings */
+    .mottohead h3 {
+        color: var(--primary);
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+    /* Header */
+    .header {
+        background-color: var(--light);
+        height: 600px;
+        position: relative;
+    }
+
+    .header video {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 0;
+    }
+
+    .header .headercntnt {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+
+    .header .headerdiv .headercntnt h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .header .headerdiv .headercntnt h3 {
+        color: var(--dark);
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: "Bangers", system-ui;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Message */
+    .message {
+        background-color: var(--primary);
+        padding: 30px 0px;
+        margin-top: 50px;
+        height: 100% !important;
+    }
+
+    .messagediv {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .messageleft {
+        position: relative !important;
+    }
+
+    .messageleft img {
+        height: 100% !important;
+        margin-bottom: 30px;
+    }
+
+    .messageright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .messageright h5 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .messageright h4 {
+        width: 90%;
+        color: var(--light);
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .messageright h6 {
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 450;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    /* Motto */
+    .motto {
+        margin-top: 50px;
+    }
+
+    .mottodiv {
+        width: 95%;
+        margin: auto;
+    }
+
+    /* Motto Carousel */
+    .servicescslmain {
+        margin-top: 15px;
+    }
+
+    #carousel2 .splide__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: 360px;
+        overflow: hidden;
+        background-color: #fff;
+        margin-bottom: 15px;
+    }
+    
+    .card1 .card-content {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        border: 1px solid #D9D9D9;
+        border-radius: 8px;
+    }
+
+    .card1 h5 {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .card1 p {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        display: none;
+    }
+
+    .cardimg {
+        height: 300px;
+        padding: 10px;
+        transition: height 0.5s ease-in;
+    }
+
+    .cardimg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .card-content:hover .cardimg {
+        height: 130px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .card-content:hover {
+        background: linear-gradient(90deg, rgba(181, 44, 45, 1) 0%, rgba(196, 19, 20, 1) 50%, rgba(82, 4, 5, 1) 100%);
+        color: #fff;
+    }
+
+    .card-content:hover p {
+        display: block;
+    }
+
+    .card-body {
+        padding: 5px 10px;
+    }
+
+}

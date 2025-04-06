@@ -1,0 +1,1222 @@
+@media screen and (min-width: 1023px) {
+
+    /* Headings */
+    .newscardshead h3,
+    .awardshead h3 {
+        color: var(--primary);
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+
+    /* Header */
+    .header {
+        /* background-color: var(--light); */
+        height: 600px;
+        position: relative;
+    }
+
+    .header video {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 0;
+    }
+
+    .header .headercntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+
+    .header .headerdiv .headercntnt h6 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .header .headerdiv .headercntnt h3 {
+        color: var(--light);
+        font-size: 50px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: "Bangers", system-ui;
+        width: 70%;
+        text-align: center;
+    }
+
+    /* About */
+    .about {
+        background-color: var(--primary);
+        padding: 50px 0px;
+    }
+
+    .aboutdiv {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 30% 65%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .aboutleft h2 {
+        color: var(--light);
+        font-weight: 400;
+        font-size: 45px;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .aboutright h6 {
+        color: var(--light);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .about hr {
+        margin: 1rem 0;
+        color: var(--light);
+        border: 0;
+        border-top: var(--bs-border-width) solid;
+        opacity: .75;
+    }
+
+    .aboutcard {
+        width: 90%;
+        margin: 30px auto 0px auto;
+    }
+
+    .aboutcard .col-sm-12 h3 {
+        color: var(--light);
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .aboutcard .col-sm-12 h6 {
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    /* Life On Campus */
+    .life {
+        width: 100%;
+        position: relative;
+    }
+
+    .lifehead {
+        background-color: var(--primary);
+        padding: 5px 20px;
+        border-radius: 2px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+
+    .lifehead h3 {
+        color: var(--light);
+        font-size: 45px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    /* Beyond */
+    .beyond {
+        background-color: var(--primary);
+        padding: 50px 0px;
+    }
+
+    .beyonddiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .beyonddiv h3 {
+        color: var(--light);
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .beyonddiv h6 {
+        width: 85%;
+        margin: auto;
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    /* Learning */
+    .learning {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .learningdiv {
+        width: 85%;
+        margin: auto;
+    }
+
+    .learningcards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 75px;
+    }
+
+    .learningct {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .learningct h5 {
+        color: var(--secondary);
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .learningct h3 {
+        color: var(--primary);
+        font-size: 43px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .learningct h6 {
+        color: var(--dark);
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 25px;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /* Cards */
+    .cards {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .cardsdiv {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 31% 3% 31% 3% 31%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .cardsdiv .brdr {
+        width: 1px;
+        height: 100%;
+        background-color: var(--dark);
+        margin: auto;
+    }
+
+    .cardsdiv h3 {
+        color: var(--primary);
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .cardsdiv h6 {
+        color: var(--dark);
+        font-size: 15px;
+        font-weight: 450;
+        line-height: 25px;
+        width: 85%;
+    }
+
+    /* Message */
+    .message {
+        background-color: var(--primary);
+        padding: 50px 0px;
+        margin-top: 125px;
+        height: 600px !important;
+    }
+
+    .messagediv {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .messageleft {
+        position: relative !important;
+    }
+
+    .messageleft img {
+        position: absolute;
+        top: -20%;
+        left: 5%;
+    }
+
+    .messageright h5 {
+        color: var(--light);
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .messageright h4 {
+        width: 85%;
+        color: var(--light);
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .messageright h6 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 25px;
+    }
+
+    /* News & Events */
+    .newscards {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .newscardsdiv {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .newscardsdiv .newscard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .newscard h6 {
+        color: var(--dark);
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Awards */
+    .awards {
+        background-color: var(--light);
+        margin-top: 75px;
+    }
+
+    .awardsdiv {
+        width: 90%;
+        margin: auto;
+    }
+
+    .awards #carousel2 .awardsimg img {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .awards #carousel2 .splide__arrow {
+        display: none;
+    }
+
+    .awards #carousel2 .splide__pagination__page {
+        margin-top: 100px;
+    }
+
+    /* Campus Says */
+    .campussays {
+        margin-top: 75px;
+    }
+
+    .campussaysdiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .campussaysright h3 {
+        color: var(--primary);
+        font-size: 45px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .campussaysright h6 {
+        color: var(--dark);
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 28px;
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    /* Headings */
+    .newscardshead h3,
+    .awardshead h3 {
+        color: var(--primary);
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+
+    /* Header */
+    .header {
+        /* background-color: var(--light); */
+        height: 500px;
+        position: relative;
+    }
+
+    .header video {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 0;
+    }
+
+    .header .headercntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+
+    .header .headerdiv .headercntnt h6 {
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .header .headerdiv .headercntnt h3 {
+        color: var(--light);
+        font-size: 45px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: "Bangers", system-ui;
+        width: 70%;
+        text-align: center;
+    }
+
+    /* About */
+    .about {
+        background-color: var(--primary);
+        padding: 50px 0px;
+    }
+
+    .aboutdiv {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 30% 65%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .aboutleft h2 {
+        color: var(--light);
+        font-weight: 400;
+        font-size: 40px;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .aboutright h6 {
+        color: var(--light);
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .about hr {
+        margin: 1rem 0;
+        color: var(--light);
+        border: 0;
+        border-top: var(--bs-border-width) solid;
+        opacity: .75;
+    }
+
+    .aboutcard {
+        width: 95%;
+        margin: 30px auto 0px auto;
+    }
+
+    .aboutcard .col-sm-12 h3 {
+        color: var(--light);
+        font-size: 23px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .aboutcard .col-sm-12 h6 {
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    /* Life On Campus */
+    .life {
+        width: 100%;
+        position: relative;
+    }
+
+    .lifehead {
+        background-color: var(--primary);
+        padding: 5px 20px;
+        border-radius: 2px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+
+    .lifehead h3 {
+        color: var(--light);
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    /* Beyond */
+    .beyond {
+        background-color: var(--primary);
+        padding: 50px 0px;
+    }
+
+    .beyonddiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .beyonddiv h3 {
+        color: var(--light);
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .beyonddiv h6 {
+        width: 90%;
+        margin: auto;
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    /* Learning */
+    .learning {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .learningdiv {
+        width: 90%;
+        margin: auto;
+    }
+
+    .learningcards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 75px;
+    }
+
+    .learningct {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .learningct h5 {
+        color: var(--secondary);
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .learningct h3 {
+        color: var(--primary);
+        font-size: 37px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .learningct h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 20px;
+        width: 90%;
+        margin: auto !important;
+    }
+
+    /* Cards */
+    .cards {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .cardsdiv {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 31% 3% 31% 3% 31%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .cardsdiv .brdr {
+        width: 1px;
+        height: 100%;
+        background-color: var(--dark);
+        margin: auto;
+    }
+
+    .cardsdiv h3 {
+        color: var(--primary);
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .cardsdiv h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 20px;
+        width: 85%;
+    }
+
+    /* Message */
+    .message {
+        background-color: var(--primary);
+        padding: 50px 0px;
+        margin-top: 125px;
+        height: 100% !important;
+    }
+
+    .messagediv {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .messageleft {
+        position: relative !important;
+    }
+
+    .messageleft img {
+        position: absolute;
+        top: -15%;
+        left: 5%;
+        height: 450px !important;
+    }
+
+    .messageright h5 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .messageright h4 {
+        width: 90%;
+        color: var(--light);
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .messageright h6 {
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 450;
+        line-height: 25px;
+    }
+
+    /* News & Events */
+    .newscards {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .newscardsdiv {
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .newscardsdiv .newscard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .newscard h6 {
+        color: var(--dark);
+        width: 90%;
+        font-size: 13px;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Awards */
+    .awards {
+        background-color: var(--light);
+        margin-top: 75px;
+    }
+
+    .awardsdiv {
+        width: 95%;
+        margin: auto;
+    }
+
+    .awards #carousel2 .awardsimg img {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .awards #carousel2 .splide__arrow {
+        display: none;
+    }
+
+    .awards #carousel2 .splide__pagination__page {
+        margin-top: 100px;
+    }
+
+    /* Campus Says */
+    .campussays {
+        margin-top: 75px;
+    }
+
+    .campussaysdiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .campussaysright h3 {
+        color: var(--primary);
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .campussaysright h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 20px;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Headings */
+    .newscardshead h3,
+    .awardshead h3 {
+        color: var(--primary);
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+
+    /* Header */
+    .header {
+        /* background-color: var(--light); */
+        height: 600px;
+        position: relative;
+    }
+
+    .header video {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 0;
+    }
+
+    .header .headercntnt {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+
+    .header .headerdiv .headercntnt h6 {
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .header .headerdiv .headercntnt h3 {
+        color: var(--light);
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: "Bangers", system-ui;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* About */
+    .about {
+        background-color: var(--primary);
+        padding: 50px 0px;
+    }
+
+    .aboutdiv {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aboutright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aboutleft h2 {
+        color: var(--light);
+        font-weight: 400;
+        font-size: 40px;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+
+    .aboutright h6 {
+        color: var(--light);
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .about hr {
+        margin: 1rem 0;
+        color: var(--light);
+        border: 0;
+        border-top: var(--bs-border-width) solid;
+        opacity: .75;
+    }
+
+    .aboutcard {
+        width: 95%;
+        margin: 30px auto 0px auto;
+    }
+
+    .aboutcard .col-sm-12 h3 {
+        color: var(--light);
+        font-size: 23px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .aboutcard .col-sm-12 h6 {
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 23px;
+        margin-bottom: 15px !important;
+    }
+
+    /* Life On Campus */
+    .life {
+        width: 100%;
+        position: relative;
+    }
+
+    .lifehead {
+        background-color: var(--primary);
+        padding: 5px 20px;
+        border-radius: 2px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+
+    .lifehead h3 {
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    /* Beyond */
+    .beyond {
+        background-color: var(--primary);
+        padding: 50px 0px;
+    }
+
+    .beyonddiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .beyonddiv h3 {
+        color: var(--light);
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .beyonddiv h6 {
+        width: 95%;
+        margin: auto;
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    /* Learning */
+    .learning {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .learningdiv {
+        width: 90%;
+        margin: auto;
+    }
+
+    .learningcards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .learningct {
+        width: 80%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .learningct h5 {
+        color: var(--secondary);
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .learningct h3 {
+        color: var(--primary);
+        font-size: 37px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+    }
+
+    .learningct h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 20px;
+        width: 90%;
+        margin: auto !important;
+    }
+
+    /* Cards */
+    .cards {
+        background-color: var(--light);
+        margin-top: 20px;
+    }
+
+    .cardsdiv {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .cardsdiv .brdr {
+        display: none;
+    }
+
+    .cardsdiv h3 {
+        color: var(--primary);
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        margin-top: 20px;
+    }
+
+    .cardsdiv h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 20px;
+        width: 85%;
+    }
+
+    /* Message */
+    .message {
+        background-color: var(--primary);
+        padding: 50px 0px;
+        margin-top: 125px;
+        height: 100% !important;
+    }
+
+    .messagediv {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .messageleft {
+        position: relative !important;
+    }
+
+    .messageleft img {
+        height: 100% !important;
+        margin-bottom: 30px;
+    }
+
+    .messageright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .messageright h5 {
+        color: var(--light);
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .messageright h4 {
+        width: 90%;
+        color: var(--light);
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .messageright h6 {
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 450;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    /* News & Events */
+    .newscards {
+        background-color: var(--light);
+        margin-top: 50px;
+    }
+
+    .newscardsdiv {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .newscardsdiv .newscard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .newscard h6 {
+        color: var(--dark);
+        width: 90%;
+        font-size: 13px;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Awards */
+    .awards {
+        background-color: var(--light);
+        margin-top: 75px;
+    }
+
+    .awardsdiv {
+        width: 95%;
+        margin: auto;
+    }
+
+    .awards #carousel2 .awardsimg img {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .awards #carousel2 .splide__arrow {
+        display: none;
+    }
+
+    .awards #carousel2 .splide__pagination__page {
+        margin-top: 100px;
+    }
+
+    /* Campus Says */
+    .campussays {
+        margin-top: 75px;
+    }
+
+    .campussaysdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .campussaysleft img {
+        display: flex;
+        margin: 0px auto 20px auto;
+    }
+
+    .campussaysright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .campussaysright h3 {
+        color: var(--primary);
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Bangers", system-ui;
+        text-align: center;
+    }
+
+    .campussaysright h6 {
+        color: var(--dark);
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 20px;
+        text-align: center;
+        width: 80%;
+    }
+
+}

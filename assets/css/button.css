@@ -1,0 +1,125 @@
+.headbtn:hover {
+    background-color: var(--light);
+    color: var(--secondary);
+    transition: var(--transition);
+}
+
+@media screen and (min-width: 1023px) {
+    .headbtn {
+        background-color: var(--secondary);
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 500;
+        border: 2px solid var(--secondary);
+        padding: 5px 15px;
+        border-radius: 5px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    .navbar-btn {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: var(--dark);
+        font-size: 30px;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 2px;
+        box-shadow: var(--box-shadow-2);
+    }
+
+    /* Button 0 */
+    .btn0 {
+        background-color: transparent;
+        color: var(--light);
+        padding: 10px 15px 10px 0px;
+        border: none;
+        border-radius: 5px;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .headbtn {
+        background-color: var(--secondary);
+        color: var(--light);
+        font-size: 13px;
+        font-weight: 500;
+        border: 2px solid var(--secondary);
+        padding: 5px 15px;
+        border-radius: 5px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    .navbar-btn {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: var(--dark);
+        font-size: 20px;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 2px;
+        box-shadow: var(--box-shadow-2);
+    }
+
+    /* Button 0 */
+    .btn0 {
+        background-color: transparent;
+        color: var(--light);
+        padding: 10px 15px 10px 0px;
+        border: none;
+        border-radius: 5px;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .headbtn {
+        background-color: var(--secondary);
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 500;
+        border: 2px solid var(--secondary);
+        padding: 5px 15px;
+        border-radius: 5px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    .navbar-btn {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: var(--dark);
+        font-size: 20px;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 2px;
+        box-shadow: var(--box-shadow-2);
+    }
+
+    /* Button 0 */
+    .btn0 {
+        background-color: transparent;
+        color: var(--light);
+        padding: 10px 15px 10px 0px;
+        border: none;
+        border-radius: 5px;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
