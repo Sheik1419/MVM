@@ -1,3 +1,64 @@
+<?php
+
+require 'vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+
+include('./conn.php');
+
+if (isset($_POST['new_enquiry'])) {
+    $enquiry = [];
+    // Iterate through each element in the $_POST array
+    foreach ($_POST as $key => $value) {
+        // Trim whitespace and escape the data to prevent SQL injection
+        $enquiry[$key] = mysqli_real_escape_string($conn, trim($value));
+    }
+    extract($enquiry);
+
+
+
+    $c_on = date('Y-m-d H:i:s');
+
+    $new_enq = "INSERT INTO `contact_enq` (`f_name`, `l_name`, `email`, `ph_no`, `message`, `status`, `c_on`, `c_by`)
+                        VALUES ('$f_name', '$l_name', '$email', '$ph_no', '$message', '1', '$c_on', 'Admin')";
+    $sts_enq = mysqli_query($conn, $new_enq);
+
+    if ($sts_enq) {
+
+        $mail = new PHPMailer(true);
+
+        try {
+            // Server settings
+            $mail->isSMTP();
+            $mail->Host = 'smtp.gmail.com';
+            $mail->SMTPAuth = true;
+            $mail->Username = 'naveenprabakaran2522@gmail.com'; // your Gmail address
+            $mail->Password = 'harlecvurtpwkwvw';   // Gmail App Password
+            $mail->SMTPSecure = 'tls';
+            $mail->Port = 587;
+
+            // Recipients
+            $mail->setFrom($email, $f_name . ' ' . 'From Contact Form');
+            $mail->addAddress('naveenprabakaran2522@gmail.com'); // your receiving address
+
+            // Content
+            $mail->Subject = 'New Enquiry from ' . $f_name;
+            $mail->Body = "Name: $f_name $l_name\nEmail: $email\nPhone: $ph_no\n\nMessage:\n$message";
+
+            $mail->send();
+            // e/cho "Thank you! Your enquiry has been sent.";
+        } catch (Exception $e) {
+            // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        }
+    } else {
+
+        // echo "Error: " . $stmt->error;
+    }
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,7 +113,8 @@
                     <h5 data-aos="fade-down" data-aos-delay="100">Contact Number</h5>
                     <h4 data-aos="fade-down" data-aos-delay="200">___</h4>
                     <h6 data-aos="fade-down" data-aos-delay="300"><a href="tel:+919962060007">+91 99620 60007</a></h6>
-                    <h6 data-aos="fade-down" data-aos-delay="400" class="mt-0"><a href="tel:+917373008666">+91 73730 08666</a></h6>
+                    <h6 data-aos="fade-down" data-aos-delay="400" class="mt-0"><a href="tel:+917373008666">+91 73730
+                            08666</a></h6>
                 </div>
                 <div class="contactinfoct">
                     <h5 data-aos="fade-down" data-aos-delay="100">Email Address</h5>
@@ -90,33 +152,33 @@
                     </div>
                 </div>
                 <div class="contactform">
-                    <form action="" class="row">
+                    <form action="" method="post" class="row">
                         <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-delay="100">
                             <label for="">First Name *</label>
-                            <input type="text" name="" id="" class="form-control" required>
+                            <input type="text" id="" class="form-control" name="f_name" required>
                         </div>
                         <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-delay="200">
                             <label for="">Last Name *</label>
-                            <input type="text" name="" id="" class="form-control" required>
+                            <input type="text" id="" class="form-control" name="l_name" required>
                         </div>
                         <div class="col-sm-12 col-md-12 col-xl-12" data-aos="fade-down" data-aos-delay="300">
                             <label for="">Email ID *</label>
-                            <input type="email" name="" id="" class="form-control" required>
+                            <input type="email" id="" class="form-control" name="email" required>
                         </div>
                         <div class="col-sm-12 col-md-12 col-xl-12" data-aos="fade-down" data-aos-delay="400">
                             <label for="">Contact Number *</label>
-                            <input type="number" name="" id="" class="form-control" required>
+                            <input type="number" id="" class="form-control" name="ph_no" required>
                         </div>
                         <div class="col-sm-12 col-md-12 col-xl-12" data-aos="fade-down" data-aos-delay="500">
                             <label for="">Message</label>
-                            <textarea rows="3" name="" id="" class="form-control"
+                            <textarea rows="3" id="" class="form-control" name="message"
                                 placeholder="Write Your Message"></textarea>
                         </div>
+                        <div class="col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center align-items-center"
+                            data-aos="fade-down" data-aos-delay="600">
+                            <button type="submit" name="new_enquiry" class="headbtn w-100">Submit</button>
+                        </div>
                     </form>
-                    <div class="col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center align-items-center"
-                        data-aos="fade-down" data-aos-delay="600">
-                        <button class="headbtn w-100">Submit</button>
-                    </div>
                 </div>
             </div>
         </div>
