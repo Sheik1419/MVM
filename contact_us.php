@@ -134,13 +134,14 @@ if (isset($_POST['new_enquiry'])) {
                         </h5>
                     </div>
                     <div class="contactmapdiv" data-aos="fade-up" data-aos-delay="300">
-                        <div style="max-width:100%;overflow:hidden;color:red;width:100%;height:350px;">
-                            <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+                        <div
+                            style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:350px;">
+                            <div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe
                                     style="height:100%;width:100%;border:0;" frameborder="0"
-                                    src="https://www.google.com/maps/embed/v1/place?q=Ettimanickampatti,+Salem+-+Coimbatore+By+Pass+NH-47,+Rakkipatty,+Salem+-+637504.&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                    src="https://www.google.com/maps/embed/v1/place?q=Maharishi+Vidya+Mandir,+Ettimanickampatti,+Salem+-+Coimbatore+By+Pass+NH-47,+Rakkipatty,+Salem+-+637504.&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                             </div>
                             <style>
-                                #my-map-canvas img {
+                                #display-google-map img {
                                     max-width: none !important;
                                     background: none !important;
                                     font-size: inherit;
