@@ -22,11 +22,10 @@
         <!-- Header -->
         <div class="header">
             <div class="headerdiv">
-                <!-- <video autoplay muted loop>
-                    <source src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4">
+                <!-- <video data-src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4" autoplay muted loop preload="none">
                 </video> -->
                 <div class="headercntnt">
-                    <img src="./assets/images/logo_main.png" class="mb-4" height="100px" alt="">
+                    <img data-src="./assets/images/logo_main.png" class="lazy mb-4" height="100px" alt="">
                     <h6 class="mb-4" data-aos="fade-up" data-aos-delay="100">Yearly Learning Program</h6>
                     <h3 class="mb-4" data-aos="fade-up" data-aos-delay="200">Growth, Goals, and Great learning</h3>
                     <button class="headbtn mb-4" data-aos="fade-up" data-aos-delay="300">Explore Our Programs <i
@@ -44,7 +43,7 @@
 
                 <div class="cardgrp1">
                     <div class="card1 pt-2 mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <img src="./assets/images/Icon_1.png" height="50px" alt="">
+                        <img data-src="./assets/images/Icon_1.png" class="lazy" height="50px" alt="">
                         <h5>KinderGarten</h5>
                         <ul class="ps-0" style="height: 150px; overflow: auto;">
                             <li>Brandemics</li>
@@ -53,7 +52,7 @@
                         </ul>
                     </div>
                     <div class="card1 pt-2 mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <img src="./assets/images/Icon_2.png" height="50px" alt="">
+                        <img data-src="./assets/images/Icon_2.png" class="lazy" height="50px" alt="">
                         <h5>Primary</h5>
                         <ul class="ps-0" style="height: 150px; overflow: auto;">
                             <li>Orient Blackswan</li>
@@ -68,7 +67,7 @@
                         </ul>
                     </div>
                     <div class="card1 pt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
-                        <img src="./assets/images/Icon_3.png" height="50px" alt="">
+                        <img data-src="./assets/images/Icon_3.png" class="lazy" height="50px" alt="">
                         <h5>Middle</h5>
                         <ul class="ps-0" style="height: 150px; overflow: auto;">
                             <li>Tamil</li>
@@ -88,7 +87,7 @@
                         </ul>
                     </div>
                     <div class="card1 pt-2 mb-4" data-aos="fade-up" data-aos-delay="400">
-                        <img src="./assets/images/Icon_4.png" height="50px" alt="">
+                        <img data-src="./assets/images/Icon_4.png" class="lazy" height="50px" alt="">
                         <h5>Secondary</h5>
                         <ul class="ps-0" style="height: 150px; overflow: auto;">
                             <li>Tamil</li>

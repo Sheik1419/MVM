@@ -19,7 +19,7 @@
                                 data-bs-target="#collapse1" aria-expanded="false">
                                 <div class="btnname">Home</div>
                                 <div class="righticon d-flex mx-auto">
-                                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                                    <i class="fa-solid fa-angle-right"></i>
                                 </div>
                             </button>
                         </a>
@@ -29,7 +29,7 @@
                             data-bs-target="#collapse2" aria-expanded="false">
                             <div class="btnname">About</div>
                             <div class="righticon d-flex mx-auto">
-                                <i class="fa-solid fa-angle-down toggle-icon"></i>
+                                <i class="fa-solid fa-angle-right toggle-icon"></i>
                             </div>
                         </button>
                         <div class="collapse" id="collapse2">
@@ -45,7 +45,7 @@
                             data-bs-target="#collapse3" aria-expanded="false">
                             <div class="btnname">Academics</div>
                             <div class="righticon d-flex mx-auto">
-                                <i class="fa-solid fa-angle-down toggle-icon"></i>
+                                <i class="fa-solid fa-angle-right toggle-icon"></i>
                             </div>
                         </button>
                         <div class="collapse" id="collapse3">
@@ -67,7 +67,7 @@
                             data-bs-target="#collapse4" aria-expanded="false">
                             <div class="btnname">Beyond Academics</div>
                             <div class="righticon d-flex mx-auto">
-                                <i class="fa-solid fa-angle-down toggle-icon"></i>
+                                <i class="fa-solid fa-angle-right toggle-icon"></i>
                             </div>
                         </button>
                         <div class="collapse" id="collapse4">
@@ -88,7 +88,7 @@
                             data-bs-target="#collapse5" aria-expanded="false">
                             <div class="btnname">Campus</div>
                             <div class="righticon d-flex mx-auto">
-                                <i class="fa-solid fa-angle-down toggle-icon"></i>
+                                <i class="fa-solid fa-angle-right toggle-icon"></i>
                             </div>
                         </button>
                         <div class="collapse" id="collapse5">
@@ -107,7 +107,7 @@
                                 data-bs-target="#collapse8" aria-expanded="false">
                                 <div class="btnname">Contact Us</div>
                                 <div class="righticon d-flex mx-auto">
-                                    <i class="fa-solid fa-angle-down toggle-icon"></i>
+                                    <i class="fa-solid fa-angle-right toggle-icon"></i>
                                 </div>
                             </button>
                         </a>

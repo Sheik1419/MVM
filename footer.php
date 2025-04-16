@@ -6,8 +6,8 @@
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2">
                     <div class="d-flex justify-content-start align-items-start flex-column" id="cmpnyinfo">
                         <div class="col footerlogo">
-                            <img src="./assets/images/logo_white.png" class="d-flex mx-auto rounded-3" height="100px"
-                                alt=""><br>
+                            <img data-src="./assets/images/logo_white.png" class="lazy d-flex mx-auto rounded-3"
+                                height="100px" alt=""><br>
                         </div>
                         <!-- <h5 class="d-flex align-items-center gap-1">
                             <i class="bx bxs-map"></i>

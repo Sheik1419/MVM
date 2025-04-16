@@ -22,11 +22,10 @@
         <!-- Header -->
         <div class="header">
             <div class="headerdiv">
-                <!-- <video autoplay muted loop>
-                    <source src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4">
+                <!-- <video data-src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4" autoplay muted loop preload="none">
                 </video> -->
                 <div class="headercntnt">
-                    <img src="./assets/images/logo_main.png" class="mb-4" height="100px" alt="">
+                    <img data-src="./assets/images/logo_main.png" class="lazy mb-4" height="100px" alt="">
                     <h6 class="mb-4" data-aos="fade-up" data-aos-delay="100">About Our School</h6>
                     <h3 class="mb-4" data-aos="fade-up" data-aos-delay="200">Inspiring minds, Shaping futures</h3>
                     <button class="headbtn mb-4" data-aos="fade-up" data-aos-delay="300">Explore Our Programs <i
@@ -39,7 +38,7 @@
         <div class="message m-0">
             <div class="messagediv">
                 <div class="messageleft">
-                    <img src="./assets/images/Founder.png" class="d-flex mx-auto"
+                    <img data-src="./assets/images/Founder.png" class="lazy d-flex mx-auto"
                         style="object-fit: contain; object-position: center;" height="500px" width="78%" alt="">
                 </div>
                 <div class="messageright">
@@ -78,7 +77,7 @@
                                 <li class="splide__slide card1">
                                     <div class="card-content" data-aos="fade-up" data-aos-delay="200">
                                         <div class="cardimg">
-                                            <img src="./assets/images/founder.png" alt="">
+                                            <img data-src="./assets/images/founder.png" class="lazy" alt="">
                                         </div>
                                         <div class="card-body">
                                             <h5>Motto</h5>
@@ -92,7 +91,7 @@
                                 <li class="splide__slide card1">
                                     <div class="card-content" data-aos="fade-up" data-aos-delay="300">
                                         <div class="cardimg">
-                                            <img src="./assets/images/logo_white.png" alt="">
+                                            <img data-src="./assets/images/logo_white.png" class="lazy" alt="">
                                         </div>
                                         <div class="card-body">
                                             <h5>Emblem</h5>
@@ -108,7 +107,7 @@
                                 <li class="splide__slide card1">
                                     <div class="card-content" data-aos="fade-up" data-aos-delay="400">
                                         <div class="cardimg">
-                                            <img src="./assets/images/Our_Mission.png" alt="">
+                                            <img data-src="./assets/images/Our_Mission.png" class="lazy" alt="">
                                         </div>
                                         <div class="card-body">
                                             <h5>Our Mission</h5>
@@ -123,7 +122,7 @@
                                 <li class="splide__slide card1">
                                     <div class="card-content" data-aos="fade-up" data-aos-delay="500">
                                         <div class="cardimg">
-                                            <img src="./assets/images/Our_Vision.png" alt="">
+                                            <img data-src="./assets/images/Our_Vision.png" class="lazy" alt="">
                                         </div>
                                         <div class="card-body">
                                             <h5>Our Vision</h5>

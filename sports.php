@@ -23,11 +23,10 @@
         <!-- Header -->
         <div class="header">
             <div class="headerdiv">
-                <video autoplay muted loop>
-                    <source src="./assets/videos/Sports.mp4" type="video/mp4">
+                <video data-src="./assets/videos/Sports.mp4" type="video/mp4" autoplay muted loop preload="none">
                 </video>
                 <div class="headercntnt">
-                    <img src="./assets/images/logo_main.png" class="mb-4" height="100px" alt="">
+                    <img data-src="./assets/images/logo_main.png" class="lazy mb-4" height="100px" alt="">
                     <h6 class="mb-4" data-aos="fade-up" data-aos-delay="100">School Sports</h6>
                     <h3 class="mb-4" data-aos="fade-up" data-aos-delay="200">Team spirit, Strength, and Fun</h3>
                     <button class="headbtn mb-4" data-aos="fade-up" data-aos-delay="300">Explore Our Programs <i

@@ -5,8 +5,8 @@
     .awardshead h3 {
         color: var(--primary);
         font-size: 40px;
-        font-weight: 700;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
         margin-bottom: 30px !important;
     }
@@ -51,9 +51,9 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--light);
         font-size: 50px;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         width: 70%;
         text-align: center;
     }
@@ -75,9 +75,9 @@
 
     .aboutleft h2 {
         color: var(--light);
-        font-weight: 400;
+        font-weight: 600;
         font-size: 45px;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         text-align: center;
     }
 
@@ -104,8 +104,8 @@
     .aboutcard .col-sm-12 h3 {
         color: var(--light);
         font-size: 25px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
     }
@@ -138,8 +138,8 @@
     .lifehead h3 {
         color: var(--light);
         font-size: 45px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
     }
@@ -161,8 +161,8 @@
     .beyonddiv h3 {
         color: var(--light);
         font-size: 40px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
     }
 
@@ -211,8 +211,8 @@
     .learningct h3 {
         color: var(--primary);
         font-size: 43px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .learningct h6 {
@@ -248,8 +248,8 @@
     .cardsdiv h3 {
         color: var(--primary);
         font-size: 25px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .cardsdiv h6 {
@@ -298,8 +298,8 @@
         width: 85%;
         color: var(--light);
         font-size: 35px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .messageright h6 {
@@ -379,8 +379,8 @@
     .campussaysright h3 {
         color: var(--primary);
         font-size: 45px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .campussaysright h6 {
@@ -400,8 +400,8 @@
     .awardshead h3 {
         color: var(--primary);
         font-size: 40px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
         margin-bottom: 30px !important;
     }
@@ -424,6 +424,7 @@
     }
 
     .header .headercntnt {
+        width: 75%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -446,9 +447,9 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--light);
         font-size: 45px;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         width: 70%;
         text-align: center;
     }
@@ -470,9 +471,9 @@
 
     .aboutleft h2 {
         color: var(--light);
-        font-weight: 400;
+        font-weight: 600;
         font-size: 40px;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         text-align: center;
     }
 
@@ -499,8 +500,8 @@
     .aboutcard .col-sm-12 h3 {
         color: var(--light);
         font-size: 23px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
     }
@@ -533,8 +534,8 @@
     .lifehead h3 {
         color: var(--light);
         font-size: 30px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
     }
@@ -556,8 +557,8 @@
     .beyonddiv h3 {
         color: var(--light);
         font-size: 35px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
     }
 
@@ -606,8 +607,8 @@
     .learningct h3 {
         color: var(--primary);
         font-size: 37px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .learningct h6 {
@@ -643,8 +644,8 @@
     .cardsdiv h3 {
         color: var(--primary);
         font-size: 20px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .cardsdiv h6 {
@@ -694,8 +695,8 @@
         width: 90%;
         color: var(--light);
         font-size: 30px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .messageright h6 {
@@ -776,8 +777,8 @@
     .campussaysright h3 {
         color: var(--primary);
         font-size: 40px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .campussaysright h6 {
@@ -797,8 +798,8 @@
     .awardshead h3 {
         color: var(--primary);
         font-size: 35px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
         margin-bottom: 30px !important;
     }
@@ -845,9 +846,9 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--light);
         font-size: 40px;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         width: 100%;
         text-align: center;
     }
@@ -876,9 +877,9 @@
 
     .aboutleft h2 {
         color: var(--light);
-        font-weight: 400;
+        font-weight: 600;
         font-size: 40px;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         text-align: center;
         margin-bottom: 10px !important;
     }
@@ -907,8 +908,8 @@
     .aboutcard .col-sm-12 h3 {
         color: var(--light);
         font-size: 23px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
     }
@@ -942,8 +943,8 @@
     .lifehead h3 {
         color: var(--light);
         font-size: 15px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
     }
@@ -965,8 +966,8 @@
     .beyonddiv h3 {
         color: var(--light);
         font-size: 30px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
     }
 
@@ -1015,8 +1016,8 @@
     .learningct h3 {
         color: var(--primary);
         font-size: 37px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
     }
 
     .learningct h6 {
@@ -1050,8 +1051,8 @@
     .cardsdiv h3 {
         color: var(--primary);
         font-size: 20px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         margin-top: 20px;
     }
 
@@ -1108,8 +1109,8 @@
         width: 90%;
         color: var(--light);
         font-size: 30px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
     }
 
@@ -1205,8 +1206,8 @@
     .campussaysright h3 {
         color: var(--primary);
         font-size: 40px;
-        font-weight: 400;
-        font-family: "Bangers", system-ui;
+        font-weight: 600;
+        font-family: var(--main-font);
         text-align: center;
     }
 

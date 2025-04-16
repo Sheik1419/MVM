@@ -39,9 +39,9 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--dark);
         font-size: 50px;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         width: 70%;
         text-align: center;
     }
@@ -173,6 +173,7 @@
     }
 
     .header .headercntnt {
+        width: 75%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -195,9 +196,9 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--dark);
         font-size: 45px;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         width: 70%;
         text-align: center;
     }
@@ -356,9 +357,9 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--dark);
         font-size: 40px;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
-        font-family: "Bangers", system-ui;
+        font-family: var(--main-font);
         width: 100%;
         text-align: center;
     }

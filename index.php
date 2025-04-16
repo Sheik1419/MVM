@@ -22,11 +22,11 @@
         <!-- Header -->
         <div class="header">
             <div class="headerdiv">
-                <video autoplay muted loop>
-                    <source src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4">
+                <video data-src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4" autoplay muted loop
+                    preload="none">
                 </video>
                 <div class="headercntnt">
-                    <img src="./assets/images/logo_main.png" class="mb-4" height="100px" alt="">
+                    <img data-src="./assets/images/logo_main.png" class="lazy mb-4" height="100px" alt="">
                     <h6 class="mb-4" data-aos="fade-up" data-aos-delay="200">Journeys of Growth, Discovery, and
                         Friendship</h6>
                     <h3 class="mb-4" data-aos="fade-up" data-aos-delay="400">A Different School Of Thought</h3>
@@ -102,7 +102,7 @@
         <!-- Beyond -->
         <div class="beyond">
             <div class="beyonddiv">
-                <img src="./assets/images/logo_white.png" class="rounded-2 mb-4" height="100px" alt="">
+                <img data-src="./assets/images/logo_white.png" class="lazy rounded-2 mb-4" height="100px" alt="">
                 <h3 class="mb-3" data-aos="fade-down" data-aos-delay="100">Emerge, Evlove, Excel</h3>
                 <h6 class="mb-4" data-aos="fade-down" data-aos-delay="200">GSIS isn't just a school - we are a community
                     where student residences transform into
@@ -119,7 +119,7 @@
 
                 <div class="learningcards">
                     <div class="learningimg">
-                        <img src="./assets/images/Academic_3.png" width="85%" class="d-flex mx-auto" alt="">
+                        <img data-src="./assets/images/Academic_3.png" width="85%" class="lazy d-flex mx-auto" alt="">
                     </div>
                     <div class="learningct">
                         <h5 class="mb-3" data-aos="fade-down">Learning</h5>
@@ -139,13 +139,13 @@
                             expression, challenging students to discover their artistic potential.</h6>
                     </div>
                     <div class="learningimg">
-                        <img src="./assets/images/Arts_3.png" width="85%" class="d-flex mx-auto" alt="">
+                        <img data-src="./assets/images/Arts_3.png" width="85%" class="lazy d-flex mx-auto" alt="">
                     </div>
                 </div>
 
                 <div class="learningcards">
                     <div class="learningimg">
-                        <img src="./assets/images/Athletics_3.png" width="85%" class="d-flex mx-auto" alt="">
+                        <img data-src="./assets/images/Athletics_3.png" width="85%" class="lazy d-flex mx-auto" alt="">
                     </div>
                     <div class="learningct">
                         <h5 class="mb-3" data-aos="fade-down">Sports</h5>
@@ -166,7 +166,7 @@
                             how learning here goes beyond textbooks.</h6>
                     </div>
                     <div class="learningimg">
-                        <img src="./assets/images/Beyond_3.png" width="85%" class="d-flex mx-auto" alt="">
+                        <img data-src="./assets/images/Beyond_3.png" width="85%" class="lazy d-flex mx-auto" alt="">
                     </div>
                 </div>
 
@@ -210,7 +210,8 @@
         <div class="message">
             <div class="messagediv">
                 <div class="messageleft">
-                    <img src="./assets/images/Rectangle.png" class="d-flex mx-auto" height="600px" width="78%" alt="">
+                    <img data-src="./assets/images/Rectangle.png" class="lazy d-flex mx-auto" height="600px" width="78%"
+                        alt="">
                 </div>
                 <div class="messageright">
                     <h5 class="mb-4" data-aos="fade-down">School Leadership</h5>
@@ -241,7 +242,7 @@
             </div>
             <div class="newscardsdiv">
                 <div class="newscard">
-                    <img src="./assets/images/News_1.png" width="90%" class="d-flex mx-auto mb-4" alt="">
+                    <img data-src="./assets/images/News_1.png" width="90%" class="lazy d-flex mx-auto mb-4" alt="">
                     <h6 class="mb-3" data-aos="fade-down" data-aos-delay="200">
                         GSIS: A Google Reference School Leading the Digital Revolution
                     </h6>
@@ -249,7 +250,7 @@
                             class="fas fa-arrow-right ps-1"></i></button>
                 </div>
                 <div class="newscard">
-                    <img src="./assets/images/News_2.png" width="90%" class="d-flex mx-auto mb-4" alt="">
+                    <img data-src="./assets/images/News_2.png" width="90%" class="lazy d-flex mx-auto mb-4" alt="">
                     <h6 class="mb-3" data-aos="fade-down" data-aos-delay="200">
                         Guide to Curriculum Options at Good Shepherd International School
                     </h6>
@@ -257,7 +258,7 @@
                             class="fas fa-arrow-right ps-1"></i></button>
                 </div>
                 <div class="newscard">
-                    <img src="./assets/images/News_3.png" width="90%" class="d-flex mx-auto mb-4" alt="">
+                    <img data-src="./assets/images/News_3.png" width="90%" class="lazy d-flex mx-auto mb-4" alt="">
                     <h6 class="mb-3" data-aos="fade-down" data-aos-delay="200">
                         Healthy Bodies, Healthy Minds: Promoting Fitness and Sports for All
                     </h6>
@@ -278,32 +279,32 @@
                         <ul class="splide__list">
                             <li class="splide__slide">
                                 <div class="awardsimg">
-                                    <img src="./assets/images/Ellipse.png" alt="">
+                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div class="awardsimg">
-                                    <img src="./assets/images/Ellipse.png" alt="">
+                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div class="awardsimg">
-                                    <img src="./assets/images/Ellipse.png" alt="">
+                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div class="awardsimg">
-                                    <img src="./assets/images/Ellipse.png" alt="">
+                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div class="awardsimg">
-                                    <img src="./assets/images/Ellipse.png" alt="">
+                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div class="awardsimg">
-                                    <img src="./assets/images/Ellipse.png" alt="">
+                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
                                 </div>
                             </li>
                         </ul>
@@ -316,7 +317,7 @@
         <div class="campussays">
             <div class="campussaysdiv">
                 <div class="campussaysleft">
-                    <img src="./assets/images/Campus_Says.png" width="90%" alt="">
+                    <img data-src="./assets/images/Campus_Says.png" class="lazy" width="90%" alt="">
                 </div>
                 <div class="campussaysright">
                     <h3 class="mb-4" data-aos="fade-down">What Our Campus Says</h3>
