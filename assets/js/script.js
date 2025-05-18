@@ -1,6 +1,6 @@
 // Aside Icons Toggle Funtion
 $(document).ready(function () {
-  $(".btn0").on("click", function () {
+  $(".asidebtn").on("click", function () {
     $(this).find(".toggle-icon").toggleClass("fa-angle-right fa-angle-down");
   });
 });

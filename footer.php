@@ -7,7 +7,7 @@
                     <div class="d-flex justify-content-start align-items-start flex-column" id="cmpnyinfo">
                         <div class="col footerlogo">
                             <img data-src="./assets/images/logo_white.png" class="lazy d-flex mx-auto rounded-3"
-                                height="100px" alt=""><br>
+                                height="100px" alt="" data-aos="fade-down" data-aos-delay="100"><br>
                         </div>
                         <!-- <h5 class="d-flex align-items-center gap-1">
                             <i class="bx bxs-map"></i>
@@ -25,36 +25,45 @@
                 </div>
 
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>About</h5>
+                    <h5 data-aos="fade-down" data-aos-delay="100">About</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./about_us.php" class="p-0">About Maharishi</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href="./about_us.php"
+                                class="p-0">About Maharishi</a></li>
                     </ul>
                 </div>
 
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>Academics</h5>
+                    <h5 data-aos="fade-down" data-aos-delay="100">Academics</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./programs.php" class="p-0">Programs</a></li>
-                        <li class="nav-item mb-2"><a href="./core_values.php" class="p-0">Core Values</a></li>
-                        <li class="nav-item mb-2"><a href="" class="p-0">Career Guidance</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href="./programs.php"
+                                class="p-0">Programs</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="300"><a href="./core_values.php"
+                                class="p-0">Core Values</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="400"><a href=""
+                                class="p-0">Career Guidance</a></li>
                     </ul>
                 </div>
 
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>Beyond Acadmeics</h5>
+                    <h5 data-aos="fade-down" data-aos-delay="100">Beyond Acadmeics</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./adventure.php" class="p-0">Adventure</a></li>
-                        <li class="nav-item mb-2"><a href="./sports.php" class="p-0">Sports</a></li>
-                        <li class="nav-item mb-2"><a href="./activities.php" class="p-0">Exercises & Activities</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href="./adventure.php"
+                                class="p-0">Adventure</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="300"><a href="./sports.php"
+                                class="p-0">Sports</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="400"><a href="./activities.php"
+                                class="p-0">Exercises & Activities</a></li>
                     </ul>
                 </div>
 
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
                     <form>
-                        <h5>Campus</h5>
+                        <h5 data-aos="fade-down" data-aos-delay="100">Campus</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="" class="p-0">Academic Facilities</a></li>
-                            <li class="nav-item mb-2"><a href="" class="p-0">Summer Camp</a></li>
+                            <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href=""
+                                    class="p-0">Academic Facilities</a></li>
+                            <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="300"><a href=""
+                                    class="p-0">Summer Camp</a></li>
                         </ul>
                     </form>
                 </div>
@@ -84,11 +93,14 @@
                 </div> -->
 
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>Contact Us</h5>
+                    <h5 data-aos="fade-down" data-aos-delay="100">Contact Us</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./contact_us.php" class="p-0">Contact Us</a></li>
-                        <li class="nav-item mb-2"><a href="" class="p-0">Privacy Policy</a></li>
-                        <li class="nav-item mb-2"><a href="" class="p-0">Disclaimer Policy</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href="./contact_us.php"
+                                class="p-0">Contact Us</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="300"><a href=""
+                                class="p-0">Privacy Policy</a></li>
+                        <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="400"><a href=""
+                                class="p-0">Disclaimer Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -99,39 +111,39 @@
                 <ul class="nav flex-row gap-2" id="brands">
                     <li class="nav-item">
                         <a href="" target="__blank" id="facebook" data-bs-toggle="tooltip" data-bs-placement="right"
-                            data-bs-title="Facebook">
+                            data-bs-title="Facebook" data-aos="fade-down" data-aos-delay="100">
                             <div class="brandicons">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-facebook-f" data-aos="fade-down" data-aos-delay="200"></i>
                             </div>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="" target="__blank" id="instagram" data-bs-toggle="tooltip" data-bs-placement="right"
-                            data-bs-title="Instagram">
+                            data-bs-title="Instagram" data-aos="fade-down" data-aos-delay="300">
                             <div class="brandicons">
-                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-instagram" data-aos="fade-down" data-aos-delay="400"></i>
                             </div>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="" target="__blank" id="youtube" data-bs-toggle="tooltip" data-bs-placement="right"
-                            data-bs-title="YouTube">
+                            data-bs-title="YouTube" data-aos="fade-down" data-aos-delay="500">
                             <div class="brandicons">
-                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-youtube" data-aos="fade-down" data-aos-delay="600"></i>
                             </div>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="" target="__blank" id="linkedin" data-bs-toggle="tooltip" data-bs-placement="right"
-                            data-bs-title="LinkedIn">
+                            data-bs-title="LinkedIn" data-aos="fade-down" data-aos-delay="700">
                             <div class="brandicons">
-                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-linkedin-in" data-aos="fade-down" data-aos-delay="800"></i>
                             </div>
                         </a>
                     </li>
                 </ul>
                 <div>
-                    <h6 class="m-0">&copy;  2025 GSIS. ALL RIGHTS RESERVED.</h6>
+                    <h6 class="m-0">&copy;  2025 MVM. ALL RIGHTS RESERVED.</h6>
                 </div>
             </div>
         </div>

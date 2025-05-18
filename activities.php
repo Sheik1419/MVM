@@ -48,63 +48,63 @@
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/1.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/1.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/1.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/2.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/2.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/2.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/3.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/3.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/3.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/4.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/4.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/4.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/5.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/5.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/5.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/6.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/6.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/6.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/7.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/7.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/7.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/8.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/8.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/8.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/18.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/18.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/18.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
@@ -118,63 +118,63 @@
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/9.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/9.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/9.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/10.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/10.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/10.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/11.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/11.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/11.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/12.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/12.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/12.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/13.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/13.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/13.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/14.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/14.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/14.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/15.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/15.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/15.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/16.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/16.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/16.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li class="splide__slide">
                                 <div>
                                     <a href="./assets/images/Activities/17.jpg" data-fancybox="activities">
-                                        <img data-src="./assets/images/Activities/17.jpg" class="lazy" alt="">
+                                        <img src="./assets/images/Activities/17.jpg" loading="lazy" alt="">
                                     </a>
                                 </div>
                             </li>
@@ -206,7 +206,7 @@
             pagination: false,
             rewind: true,
             autoplay: true,
-            interval: 2000,
+            interval: 1500,
             breakpoints: {
                 1098: {
                     perPage: 4,
@@ -258,7 +258,9 @@
 </script>
 
 <script>
-    AOS.init();
+    AOS.init({
+        duration: 1000
+    });
 </script>
 
 </html>

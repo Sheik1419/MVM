@@ -30,7 +30,7 @@
     }
 
     /* Button 0 */
-    .btn0 {
+    .asidebtn {
         background-color: transparent;
         color: var(--light);
         padding: 10px 15px 10px 0px;
@@ -70,7 +70,7 @@
     }
 
     /* Button 0 */
-    .btn0 {
+    .asidebtn {
         background-color: transparent;
         color: var(--light);
         padding: 10px 15px 10px 0px;
@@ -110,7 +110,7 @@
     }
 
     /* Button 0 */
-    .btn0 {
+    .asidebtn {
         background-color: transparent;
         color: var(--light);
         padding: 10px 15px 10px 0px;

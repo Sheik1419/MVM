@@ -15,7 +15,7 @@
                 <ul class="list-unstyled ps-0">
                     <li class="mb-1">
                         <a href="">
-                            <button class="btn0 mx-auto btn-toggle collapsed" data-bs-toggle="collapse"
+                            <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
                                 data-bs-target="#collapse1" aria-expanded="false">
                                 <div class="btnname">Home</div>
                                 <div class="righticon d-flex mx-auto">
@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li class="mb-1">
-                        <button class="btn0 mx-auto btn-toggle collapsed" data-bs-toggle="collapse"
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
                             data-bs-target="#collapse2" aria-expanded="false">
                             <div class="btnname">About</div>
                             <div class="righticon d-flex mx-auto">
@@ -41,7 +41,7 @@
                         </div>
                     </li>
                     <li class="mb-1">
-                        <button class="btn0 mx-auto btn-toggle collapsed" data-bs-toggle="collapse"
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
                             data-bs-target="#collapse3" aria-expanded="false">
                             <div class="btnname">Academics</div>
                             <div class="righticon d-flex mx-auto">
@@ -63,7 +63,7 @@
                         </div>
                     </li>
                     <li class="mb-1">
-                        <button class="btn0 mx-auto btn-toggle collapsed" data-bs-toggle="collapse"
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
                             data-bs-target="#collapse4" aria-expanded="false">
                             <div class="btnname">Beyond Academics</div>
                             <div class="righticon d-flex mx-auto">
@@ -84,7 +84,7 @@
                         </div>
                     </li>
                     <li class="mb-1">
-                        <button class="btn0 mx-auto btn-toggle collapsed" data-bs-toggle="collapse"
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
                             data-bs-target="#collapse5" aria-expanded="false">
                             <div class="btnname">Campus</div>
                             <div class="righticon d-flex mx-auto">
@@ -103,11 +103,11 @@
                     </li>
                     <li class="mb-1">
                         <a href="./contact_us.php">
-                            <button class="btn0 mx-auto btn-toggle collapsed" data-bs-toggle="collapse"
+                            <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
                                 data-bs-target="#collapse8" aria-expanded="false">
                                 <div class="btnname">Contact Us</div>
                                 <div class="righticon d-flex mx-auto">
-                                    <i class="fa-solid fa-angle-right toggle-icon"></i>
+                                    <i class="fa-solid fa-angle-right"></i>
                                 </div>
                             </button>
                         </a>

@@ -39,7 +39,7 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--dark);
         font-size: 50px;
-        font-weight: 600;
+        font-weight: 400;
         text-transform: capitalize;
         font-family: var(--main-font);
         width: 70%;
@@ -196,7 +196,7 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--dark);
         font-size: 45px;
-        font-weight: 600;
+        font-weight: 400;
         text-transform: capitalize;
         font-family: var(--main-font);
         width: 70%;
@@ -357,7 +357,7 @@
     .header .headerdiv .headercntnt h3 {
         color: var(--dark);
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
         text-transform: capitalize;
         font-family: var(--main-font);
         width: 100%;

@@ -194,7 +194,9 @@ if (isset($_POST['new_enquiry'])) {
 </body>
 
 <script>
-    AOS.init();
+    AOS.init({
+        duration: 1000
+    });
 </script>
 
 </html>
