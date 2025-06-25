@@ -1,49 +1,6 @@
 <?php
-
-require 'vendor/autoload.php';
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
 include('./conn.php');
 
-if (isset($_POST['new_enquiry'])) {
-    $enquiry = [];
-    // Iterate through each element in the $_POST array
-    foreach ($_POST as $key => $value) {
-        // Trim whitespace and escape the data to prevent SQL injection
-        $enquiry[$key] = mysqli_real_escape_string($conn, trim($value));
-    }
-    extract($enquiry);
-    $c_on = date('Y-m-d H:i:s');
-    $new_enq = "INSERT INTO `contact_enq` (`f_name`, `l_name`, `email`, `ph_no`, `message`, `status`, `c_on`, `c_by`)
-        VALUES ('$f_name', '$l_name', '$email', '$ph_no', '$message', '1', '$c_on', 'Admin')";
-    $sts_enq = mysqli_query($conn, $new_enq);
-    if ($sts_enq) {
-        $mail = new PHPMailer(true);
-        try {
-            // Server settings
-            $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
-            $mail->SMTPAuth = true;
-            $mail->Username = 'naveenprabakaran2522@gmail.com'; // your Gmail address
-            $mail->Password = 'harlecvurtpwkwvw';   // Gmail App Password
-            $mail->SMTPSecure = 'tls';
-            $mail->Port = 587;
-            // Recipients
-            $mail->setFrom($email, $f_name . ' ' . 'From Contact Form');
-            $mail->addAddress('naveenprabakaran2522@gmail.com'); // your receiving address
-            // Content
-            $mail->Subject = 'New Enquiry from ' . $f_name;
-            $mail->Body = "Name: $f_name $l_name\nEmail: $email\nPhone: $ph_no\n\nMessage:\n$message";
-            $mail->send();
-        } catch (Exception $e) {
-            // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-        }
-    } else {
-        // echo "Error: " . $stmt->error;
-    }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -138,7 +95,7 @@ if (isset($_POST['new_enquiry'])) {
                     </div>
                 </div>
                 <div class="contactform">
-                    <form action="" method="post" class="row">
+                    <form action="./submit.php" method="post" class="row">
                         <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-delay="100">
                             <label for="">First Name *</label>
                             <input type="text" id="" class="form-control" name="f_name" required>
@@ -162,7 +119,7 @@ if (isset($_POST['new_enquiry'])) {
                         </div>
                         <div class="col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center align-items-center"
                             data-aos="fade-down" data-aos-delay="600">
-                            <button type="submit" name="new_enquiry" class="headbtn w-100">Submit</button>
+                            <button type="submit" name="contact_us" class="headbtn w-100">Submit</button>
                         </div>
                     </form>
                 </div>

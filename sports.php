@@ -1,3 +1,7 @@
+<?php
+include('./conn.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -183,7 +187,7 @@
 
 <script>
     // Carousel 1
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         new Splide('#carousel1', {
             type: 'loop',
             perPage: 5,
@@ -210,7 +214,7 @@
         }).mount();
     });
 
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         var splide = new Splide('#carousel2', {
             type: 'loop',
             perPage: 5,
@@ -237,7 +241,7 @@
         }).mount();
 
         // Custom reverse autoplay
-        setInterval(function () {
+        setInterval(function() {
             splide.go('<');
         }, 2000);
     });

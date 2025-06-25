@@ -11,14 +11,14 @@
                         <h3 class="m-0">Discover More Now!</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <form class="row mt-4 pe-2" action="" method="post">
+                    <form class="row mt-4 pe-2" action="./submit.php" method="post">
                         <div class="col-sm-12 col-md-6 col-xl-6 mb-3">
                             <label for="name" class="col-form-label">Name <span>*</span></label>
-                            <input type="text" class="form-control" name="name" id="name"  required>
+                            <input type="text" class="form-control" name="name" id="name" required>
                         </div>
                         <div class="col-sm-12 col-md-6 col-xl-6 mb-3">
-                            <label for="contactno" class="col-form-label">Contact Number <span>*</span></label>
-                            <input type="number" class="form-control" name="contactno" id="contactno"
+                            <label for="contact_no" class="col-form-label">Contact Number <span>*</span></label>
+                            <input type="number" class="form-control" name="contact_no" id="contactno"
                                 oninput="validate_contact(this)" min="6000000000" max="9999999999" required>
                         </div>
                         <div class="col-sm-12 col-md-6 col-xl-6 mb-3">
@@ -26,8 +26,8 @@
                             <input type="email" class="form-control" name="email" id="email" required>
                         </div>
                         <div class="col-sm-12 col-md-6 col-xl-6 mb-3">
-                            <label for="prevclass" class="col-form-label">Previous Class <span>*</span></label>
-                            <select name="prevclass" class="form-select" id="prevclass" required>
+                            <label for="prev_class" class="col-form-label">Previous Class <span>*</span></label>
+                            <select name="prev_class" class="form-select" id="prev_class" required>
                                 <option value="" selected disabled>Select Previous Class</option>
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
@@ -58,7 +58,7 @@
                             <textarea class="form-control" rows="1" name="message" id="message" required></textarea>
                         </div>
                         <div class="col-12 d-flex justify-content-end align-items-center my-3">
-                            <button type="submit" name="popup_form" class="modalbtn">Enquire Now</button>
+                            <button type="submit" name="popup_enquiry" class="modalbtn">Enquire Now</button>
                         </div>
                     </form>
                 </div>
