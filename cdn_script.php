@@ -1,10 +1,10 @@
 <!-- Floating Icon Container -->
 <div class="icon-container">
     <a data-bs-toggle="modal" data-bs-target="#allPagePopup">
-        <img src="./assets/images/MVM_Icon.png" class="icon reachout">
+        <img data-src="./assets/images/MVM_Icon.png" data-bs-toggle="tooltip" data-bs-title="Enquire Now" class="lazy icon reachout">
     </a>
     <a href="" target="_blank">
-        <img src="./assets/images/whatsapp.png" class="icon whatsapp">
+        <img data-src="./assets/images/whatsapp.png" data-bs-toggle="tooltip" data-bs-title="WhatsApp" class="lazy icon whatsapp">
     </a>
 </div>
 
