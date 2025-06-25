@@ -87,19 +87,6 @@
             </div>
         </div>
 
-        <!-- Life On Campus -->
-        <!-- <div class="life">
-            <div class="lifehead">
-                <h3 class="m-0" data-aos="fade-down">Life On Campus</h3>
-            </div>
-            <div class="lifeimg w-100 h-100">
-                <video autoplay muted loop width="100%" height="100%">
-                    <source src="./assets/videos/Maharishi_School_3.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div> -->
-
-
         <!-- Lerning Cards -->
         <div class="learning">
             <div class="learningdiv">
@@ -168,8 +155,10 @@
                     and personal growth. Balance is maintained through a mix of studies, arts, sports, and meditation.
                     Purposeful learning encourages curiosity, confidence, and critical thinking. Together, these
                     elements create a joyful and enriching school experience.</h6>
-                <!-- <button class="headbtn" data-aos="fade-down" data-aos-delay="300">Beyond Academics <i
-                        class="fas fa-arrow-right ps-1"></i></button> -->
+                <a href="./career_guidance.php">
+                    <button class="headbtn" data-aos="fade-down" data-aos-delay="300">Check More <i
+                            class="fas fa-arrow-right ps-1"></i></button>
+                </a>
             </div>
         </div>
 
@@ -208,108 +197,30 @@
         <div class="message">
             <div class="messagediv">
                 <div class="messageleft">
-                    <img data-src="./assets/images/Rectangle.png" class="lazy d-flex mx-auto" height="600px" width="78%"
+                    <img data-src="./assets/images/Founder_MVM.jpeg" class="lazy d-flex mx-auto" height="600px" width="78%"
                         alt="">
                 </div>
                 <div class="messageright">
                     <h5 class="mb-4" data-aos="fade-down">School Leadership</h5>
-                    <h4 class="mb-4" data-aos="fade-down" data-aos-delay="300">Message From The Headmistress</h4>
+                    <h4 class="mb-4" data-aos="fade-down" data-aos-delay="300">Message About Our Chairman</h4>
                     <h6 class="mb-4" data-aos="fade-down" data-aos-delay="400">
-                        At Good Shepherd International School, our students are at the heart of everything we do. We
-                        believe in going the extra mile to provide them with the best possible care, ensuring that they
-                        thrive not just academically, but as well-rounded individuals.
+                        Mr. ONK Arumugam is a visionary leader and the driving force behind our institution’s continued
+                        growth and excellence. Known for his unwavering dedication and tireless work ethic, he is a
+                        person who gives his all to every commitment he makes. His hands-on leadership style and deep
+                        sense of responsibility have been instrumental in shaping the values and culture of our school.
                     </h6>
                     <h6 class="mb-4" data-aos="fade-down" data-aos-delay="500">
-                        Our motto, 'Truth, Trust, and Triumph,' serves as the foundation of every student's journey
-                        here. It guides our commitment to nurturing a community of progressive, lifelong learners who
-                        view education as a holistic instrument for personal growth and not merely a means to achieve
-                        academic success.
+                        With a quiet strength and clear vision, Mr. Arumugam continues to guide the school toward
+                        greater heights. His belief in value-based education, discipline, and holistic development has
+                        created an environment where both students and staff feel inspired to do their best. His
+                        leadership is not just about administration, but about building a legacy of learning,
+                        character, and community
                     </h6>
-                    <h5 class="mb-2" data-aos="fade-down" data-aos-delay="600">Deepa Suresh</h5>
-                    <h5 class="mb-3" data-aos="fade-down" data-aos-delay="700">Headmistress</h5>
-                    <button class="headbtn" data-aos="fade-down" data-aos-delay="800">Read More <i
-                            class="fas fa-arrow-right ps-1"></i></button>
+                    <h5 class="mb-2" data-aos="fade-down" data-aos-delay="600">Mr. ONK Arumugam</h5>
+                    <h5 class="mb-3" data-aos="fade-down" data-aos-delay="700">Chairman</h5>
                 </div>
             </div>
         </div>
-
-        <!-- News & Events -->
-        <!-- <div class="newscards">
-            <div class="newscardshead">
-                <h3 class="m-0" data-aos="fade-down">News & Events</h3>
-            </div>
-            <div class="newscardsdiv">
-                <div class="newscard">
-                    <img data-src="./assets/images/News_1.png" width="90%" class="lazy d-flex mx-auto mb-4" alt="">
-                    <h6 class="mb-3" data-aos="fade-down" data-aos-delay="200">
-                        GSIS: A Google Reference School Leading the Digital Revolution
-                    </h6>
-                    <button class="headbtn" data-aos="fade-down" data-aos-delay="300">Read More <i
-                            class="fas fa-arrow-right ps-1"></i></button>
-                </div>
-                <div class="newscard">
-                    <img data-src="./assets/images/News_2.png" width="90%" class="lazy d-flex mx-auto mb-4" alt="">
-                    <h6 class="mb-3" data-aos="fade-down" data-aos-delay="200">
-                        Guide to Curriculum Options at Good Shepherd International School
-                    </h6>
-                    <button class="headbtn" data-aos="fade-down" data-aos-delay="300">Read More <i
-                            class="fas fa-arrow-right ps-1"></i></button>
-                </div>
-                <div class="newscard">
-                    <img data-src="./assets/images/News_3.png" width="90%" class="lazy d-flex mx-auto mb-4" alt="">
-                    <h6 class="mb-3" data-aos="fade-down" data-aos-delay="200">
-                        Healthy Bodies, Healthy Minds: Promoting Fitness and Sports for All
-                    </h6>
-                    <button class="headbtn" data-aos="fade-down" data-aos-delay="300">Read More <i
-                            class="fas fa-arrow-right ps-1"></i></button>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- Awards -->
-        <!-- <div class="awards">
-            <div class="awardshead">
-                <h3 class="m-0" data-aos="fade-down">Awards & Accreditations</h3>
-            </div>
-            <div class="awardsdiv">
-                <div id="carousel2" class="splide">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="awardsimg">
-                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="awardsimg">
-                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="awardsimg">
-                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="awardsimg">
-                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="awardsimg">
-                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="awardsimg">
-                                    <img data-src="./assets/images/Ellipse.png" class="lazy" alt="">
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
         <!-- Campus Says -->
         <div class="campussays">

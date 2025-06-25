@@ -7,7 +7,14 @@
     --box-shadow-1: 0 0 0.875rem 0 rgba(33, 37, 41, 0.05);
     --box-shadow-2: 0 4px 6px rgba(0, 0, 0, 0.1);
     --transition: 0.5s ease-in-out;
+
     /* --main-font: "Purple Purse", serif; */
-    --main-font: "Bangers", serif;
-    --secondary-font: "Jost", sans-serif;
+    --main-font: "Achemost", serif;
+    --secondary-font: "Satoshi", sans-serif;
+    --fw-sm: 400;
+    --fw-md: 500;
+    --fw-lg: 600;
+    --fw-xl: 700;
+    --fw-xxl: 800;
+    --fw-xxxl: 900;
 }

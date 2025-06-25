@@ -1,62 +1,138 @@
+/* Header */
+.header {
+    background-color: var(--light);
+    position: relative;
+}
+
+.header video {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(30%);
+    z-index: 0;
+}
+
+.header .headercntnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.header .headerdiv .headercntnt h6 {
+    color: var(--dark);
+    font-weight: var(--fw-md);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header .headerdiv .headercntnt h3 {
+    color: var(--dark);
+    font-weight: var(--fw-sm);
+    text-transform: capitalize;
+    font-family: var(--main-font);
+    text-align: center;
+}
+
+/* Contact Info */
+.contactinfo {
+    width: 100%;
+    margin-top: 50px;
+    background-color: var(--primary);
+}
+
+.contactinfodiv {
+    width: 90%;
+    margin: auto;
+}
+
+.contactinfoct h4 {
+    color: var(--light);
+    font-weight: var(--fw-md);
+    margin-bottom: 0px;
+}
+
+.contactinfoct h2 {
+    color: var(--light);
+    font-weight: var(--fw-xxl);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.contactinfoct h5 {
+    color: var(--light);
+    font-weight: var(--fw-xl);
+    margin-bottom: 0px;
+}
+
+.contactinfoct h6,
+.contactinfoct h6 a {
+    color: var(--light);
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+/* Contact */
+.contactmain {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.contacthead h2 {
+    color: var(--dark);
+    font-weight: var(--fw-xxl);
+}
+
+.contacthead h5 {
+    font-weight: var(--fw-sm);
+}
+
+.contactform .col-sm-12 label {
+    font-weight: var(--fw-lg);
+    color: var(--dark);
+}
+
+.contactform .col-sm-12 input,
+.contactform .col-sm-12 textarea {
+    color: var(--light-dark);
+    border: 2px solid #0000002f;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 5px;
+}
+
 @media screen and (min-width: 1098px) {
 
     /* Header */
     .header {
-        background-color: var(--light);
         height: 600px;
-        position: relative;
     }
 
     .header video {
-        width: 100%;
         height: 600px;
-        object-fit: cover;
-        object-position: center;
-        filter: brightness(30%);
-        z-index: 0;
-    }
-
-    .header .headercntnt {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 99;
     }
 
     .header .headerdiv .headercntnt h6 {
-        color: var(--dark);
         font-size: 14px;
-        font-weight: 500;
-        text-transform: uppercase;
-        text-align: center;
     }
 
     .header .headerdiv .headercntnt h3 {
-        color: var(--dark);
-        font-size: 50px;
-        font-weight: 400;
-        text-transform: capitalize;
-        font-family: var(--main-font);
+        font-size: 35px;
         width: 70%;
-        text-align: center;
     }
 
     /* Contact Info */
     .contactinfo {
-        width: 100%;
-        margin-top: 50px;
         height: 250px;
-        background-color: var(--primary);
     }
 
     .contactinfodiv {
-        width: 85%;
-        margin: auto;
         display: grid;
         grid-template-columns: repeat(4, 24%);
         /* align-items: center; */
@@ -66,63 +142,39 @@
 
     .contactinfoct h4 {
         font-size: 20px;
-        font-weight: 500;
-        color: var(--light);
-        margin-bottom: 0px;
     }
 
     .contactinfoct h2 {
         font-size: 30px;
-        font-weight: 800;
-        margin-top: 35px;
-        color: var(--light);
         width: 85%;
-        margin-bottom: 0px;
     }
 
     .contactinfoct h5 {
-        font-size: 17px;
-        font-weight: 700;
-        margin-bottom: 0px;
-        color: var(--light);
+        font-size: 18px;
     }
 
     .contactinfoct h6,
     .contactinfoct h6 a {
-        margin-top: 20px;
-        margin-bottom: 0px;
         width: 80%;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 30px;
-        color: var(--light);
     }
 
     /* Contact */
-    .contactmain {
-        width: 100%;
-        margin: 50px auto;
-    }
-
     .contactdiv {
         width: 85%;
-        /* background-color: #EAEAEA; */
         padding: 20px 40px;
         display: grid;
         grid-template-columns: 48% 48%;
         justify-content: space-between;
         margin: auto;
-        /* border: 1px solid #00000008; 
-        border-radius: 10px; */
     }
 
     .contacthead h2 {
-        font-weight: 800;
-        font-size: 25px;
-        color: var(--dark);
+        font-size: 20px;
     }
 
     .contacthead h5 {
-        font-weight: 450;
         font-size: 12px;
     }
 
@@ -136,83 +188,42 @@
     }
 
     .contactform .col-sm-12 label {
-        font-size: 15px;
-        font-weight: 600;
-        color: var(--dark);
+        font-size: 14px;
     }
 
     .contactform .col-sm-12 input,
     .contactform .col-sm-12 textarea {
-        margin-top: 5px;
-        border: 2px solid #0000002f;
-        background-color: transparent;
-        border-radius: 5px;
-        font-size: 13px;
-        padding: 8px 10px;
-        color: var(--dark);
+        font-size: 12px;
     }
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1098px) {
+@media screen and (min-width: 767px) and (max-width: 1098px) {
 
     /* Header */
     .header {
-        background-color: var(--light);
         height: 500px;
-        position: relative;
     }
 
     .header video {
-        width: 100%;
         height: 500px;
-        object-fit: cover;
-        object-position: center;
-        filter: brightness(30%);
-        z-index: 0;
     }
 
     .header .headercntnt {
         width: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 99;
     }
 
     .header .headerdiv .headercntnt h6 {
-        color: var(--dark);
-        font-size: 13px;
-        font-weight: 500;
-        text-transform: uppercase;
-        text-align: center;
+        font-size: 12px;
     }
 
     .header .headerdiv .headercntnt h3 {
-        color: var(--dark);
-        font-size: 45px;
-        font-weight: 400;
-        text-transform: capitalize;
-        font-family: var(--main-font);
+        font-size: 25px;
         width: 70%;
-        text-align: center;
     }
 
     /* Contact Info */
-    .contactinfo {
-        width: 100%;
-        margin-top: 50px;
-        background-color: var(--primary);
-    }
-
     .contactinfodiv {
-        width: 90%;
-        margin: auto;
         display: grid;
         grid-template-columns: repeat(4, 24%);
         /* align-items: center; */
@@ -221,64 +232,40 @@
     }
 
     .contactinfoct h4 {
-        font-size: 15px;
-        font-weight: 500;
-        color: var(--light);
-        margin-bottom: 0px;
+        font-size: 14px;
     }
 
     .contactinfoct h2 {
         font-size: 25px;
-        font-weight: 800;
-        margin-top: 35px;
-        color: var(--light);
         width: 90%;
-        margin-bottom: 0px;
     }
 
     .contactinfoct h5 {
-        font-size: 15px;
-        font-weight: 700;
-        margin-bottom: 0px;
-        color: var(--light);
+        font-size: 14px;
     }
 
     .contactinfoct h6,
     .contactinfoct h6 a {
-        margin-top: 15px;
-        margin-bottom: 0px;
         width: 90%;
         font-size: 12px;
         line-height: 25px;
-        color: var(--light)
     }
 
     /* Contact */
-    .contactmain {
-        width: 100%;
-        margin: 50px auto;
-    }
-
     .contactdiv {
         width: 90%;
-        /* background-color: #EAEAEA; */
         padding: 15px 20px;
         display: grid;
         grid-template-columns: 48% 48%;
         justify-content: space-between;
         margin: auto;
-        /* border: 1px solid #00000008;
-        border-radius: 30px; */
     }
 
     .contacthead h2 {
-        font-weight: 800;
-        font-size: 20px;
-        color: var(--dark);
+        font-size: 18px;
     }
 
     .contacthead h5 {
-        font-weight: 450;
         font-size: 12px;
     }
 
@@ -296,146 +283,79 @@
     }
 
     .contactform .col-sm-12 label {
-        font-size: 13px;
-        font-weight: 600;
-        color: var(--dark);
+        font-size: 12px;
     }
 
     .contactform .col-sm-12 input,
     .contactform .col-sm-12 textarea {
-        margin-top: 5px;
-        border: 2px solid #0000002f;
-        background-color: transparent;
-        border-radius: 5px;
         font-size: 12px;
-        padding: 8px 10px;
-        color: var(--light-dark);
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     /* Header */
     .header {
-        background-color: var(--light);
         height: 600px;
-        position: relative;
     }
 
     .header video {
-        width: 100%;
         height: 600px;
-        object-fit: cover;
-        object-position: center;
-        filter: brightness(30%);
-        z-index: 0;
     }
 
     .header .headercntnt {
         width: 95%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 99;
     }
 
     .header .headerdiv .headercntnt h6 {
-        color: var(--dark);
-        font-size: 13px;
-        font-weight: 500;
-        text-transform: uppercase;
-        text-align: center;
+        font-size: 12px;
     }
 
     .header .headerdiv .headercntnt h3 {
-        color: var(--dark);
-        font-size: 40px;
-        font-weight: 400;
-        text-transform: capitalize;
-        font-family: var(--main-font);
+        font-size: 20px;
         width: 100%;
-        text-align: center;
     }
 
     /* Contact Info */
-    .contactinfo {
-        width: 100%;
-        margin-top: 50px;
-        background-color: var(--primary);
-    }
-
     .contactinfodiv {
-        width: 90%;
-        margin: auto;
         padding: 30px 0px;
     }
 
     .contactinfoct h4 {
-        font-size: 15px;
-        font-weight: 500;
-        color: var(--light);
-        margin-bottom: 0px;
+        font-size: 14px;
     }
 
     .contactinfoct h2 {
-        font-size: 20px;
-        font-weight: 800;
-        margin-top: 20px;
-        color: var(--light);
+        font-size: 18px;
         width: 90%;
-        margin-bottom: 0px;
     }
 
     .contactinfoct h5 {
-        font-size: 15px;
-        font-weight: 700;
-        margin-bottom: 0px;
+        font-size: 14px;
         margin-top: 20px;
-        color: var(--light);
     }
 
     .contactinfoct h6,
     .contactinfoct h6 a {
-        margin-top: 15px;
-        margin-bottom: 0px;
-        width: 90%;
         font-size: 12px;
+        width: 90%;
         line-height: 25px;
-        color: var(--light);
     }
 
     /* Contact */
-    .contactmain {
-        width: 100%;
-        margin: 50px auto;
-    }
-
     .contactdiv {
         width: 95%;
-        /* background-color: #EAEAEA; */
         padding: 15px 20px;
         margin: auto;
-        /* border: 1px solid #00000008;
-        border-radius: 30px; */
     }
 
     .contacthead h2 {
-        font-weight: 800;
-        font-size: 20px;
-        color: var(--dark);
+        font-size: 18px;
     }
 
     .contacthead h5 {
-        font-weight: 450;
         font-size: 12px;
-        color: var(--dark);
     }
 
     .contactmapdiv {
@@ -452,20 +372,12 @@
     }
 
     .contactform .col-sm-12 label {
-        font-size: 13px;
-        font-weight: 500;
-        color: var(--dark);
+        font-size: 12px;
     }
 
     .contactform .col-sm-12 input,
     .contactform .col-sm-12 textarea {
-        margin-top: 5px;
-        border: 2px solid #0000002f;
-        background-color: transparent;
-        border-radius: 5px;
         font-size: 12px;
-        padding: 8px;
-        color: var(--light-dark);
     }
 
 }

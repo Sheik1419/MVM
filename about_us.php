@@ -38,8 +38,7 @@
         <div class="message m-0">
             <div class="messagediv">
                 <div class="messageleft">
-                    <img data-src="./assets/images/Founder.png" class="lazy d-flex mx-auto"
-                        style="object-fit: contain; object-position: center;" height="500px" width="78%" alt="">
+                    <img data-src="./assets/images/Founder.png" class="lazy d-flex mx-auto" height="500px" width="78%" alt="">
                 </div>
                 <div class="messageright">
                     <h5 class="mb-4" data-aos="fade-down" data-aos-delay="100">Our Founder</h5>

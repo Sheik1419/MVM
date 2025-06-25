@@ -25,8 +25,8 @@
                         </a>
                     </li>
                     <li class="mb-1">
-                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse2" aria-expanded="false">
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2"
+                            aria-expanded="false">
                             <div class="btnname">About</div>
                             <div class="righticon d-flex mx-auto">
                                 <i class="fa-solid fa-angle-right toggle-icon"></i>
@@ -41,8 +41,8 @@
                         </div>
                     </li>
                     <li class="mb-1">
-                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse3" aria-expanded="false">
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3"
+                            aria-expanded="false">
                             <div class="btnname">Academics</div>
                             <div class="righticon d-flex mx-auto">
                                 <i class="fa-solid fa-angle-right toggle-icon"></i>
@@ -56,15 +56,15 @@
                                 <li><a href="./core_values.php"
                                         class="d-inline-flex text-decoration-none rounded mt-1">Core Values</a>
                                 </li>
-                                <li><a href="" class="d-inline-flex text-decoration-none rounded mt-1">Career
-                                        Guidance</a>
+                                <li><a href="./career_guidance.php"
+                                        class="d-inline-flex text-decoration-none rounded mt-1">Career Guidance</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="mb-1">
-                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse4" aria-expanded="false">
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                            aria-expanded="false">
                             <div class="btnname">Beyond Academics</div>
                             <div class="righticon d-flex mx-auto">
                                 <i class="fa-solid fa-angle-right toggle-icon"></i>
@@ -84,8 +84,8 @@
                         </div>
                     </li>
                     <li class="mb-1">
-                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse"
-                            data-bs-target="#collapse5" aria-expanded="false">
+                        <button class="asidebtn mx-auto collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5"
+                            aria-expanded="false">
                             <div class="btnname">Campus</div>
                             <div class="righticon d-flex mx-auto">
                                 <i class="fa-solid fa-angle-right toggle-icon"></i>
@@ -93,11 +93,10 @@
                         </button>
                         <div class="collapse" id="collapse5">
                             <ul class="btn-toggle-nav list-unstyled text-start ps-3 pe-0 pb-3">
-                                <li><a href="" class="d-inline-flex text-decoration-none rounded mt-2">Academic
-                                        Facilities</a>
+                                <li><a href="./certificates.php" class="d-inline-flex text-decoration-none rounded mt-2">Certificates</a>
                                 </li>
-                                <li><a href="" class="d-inline-flex text-decoration-none rounded mt-1">Summer Camp</a>
-                                </li>
+                                <!-- <li><a href="" class="d-inline-flex text-decoration-none rounded mt-1">Summer Camp</a>
+                                </li> -->
                             </ul>
                         </div>
                     </li>

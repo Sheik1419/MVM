@@ -6,246 +6,140 @@
     background-color: var(--primary);
 }
 
+.toggle-btn {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 999;
+}
+
+.toggle-btn button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offcanvas-header .btn-close {
+    display: none;
+}
+
+.offcanvas.offcanvas-start {
+    --bs-offcanvas-width: 500px;
+}
+
+/* Aside */
+aside {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 999 !important;
+    overflow: hidden scroll;
+}
+
+aside .sidebar {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside .btnname {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: var(--fw-sm);
+    font-family: var(--main-font);
+}
+
+.sidebar ul li a {
+    color: var(--light);
+    font-weight: var(--fw-md);
+    transition: 0.3s ease-in-out;
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+.sidebar .collapse li:hover::after {
+    width: 50%;
+    background: var(--light);
+    color: var(--black);
+}
+
+.sidebar .collapse li::after {
+    content: '';
+    display: block;
+    margin-right: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
 @media screen and (min-width: 1023px) {
+
     .toggle-btn {
-        position: fixed;
-        top: 5%;
-        right: 5%;
-        z-index: 999;
         height: 50px;
         width: 50px;
     }
 
     .toggle-btn button {
-        height: 100%;
-        width: 100%;
         font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .offcanvas-header .btn-close {
-        display: none;
-    }
-
-    .offcanvas.offcanvas-start {
-        --bs-offcanvas-width: 500px;
-    }
-
-    /* Aside */
-    aside {
-        /* height: 100vh; */
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-        top: 0px;
-        left: 0px;
-        z-index: 999 !important;
-        overflow: hidden scroll;
-    }
-
-    aside .sidebar {
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     aside .btnname {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: start;
         font-size: 25px;
-        font-weight: 400;
-        font-family: var(--main-font);
     }
 
     .sidebar ul li a {
-        color: var(--light);
-        padding-bottom: 5px;
-        font-weight: 500;
-        font-size: 17px;
-        transition: 0.3s ease-in-out;
-        border-bottom: none;
+        font-size: 18px;
     }
 
-    .sidebar .collapse li:hover::after {
-        width: 50%;
-        background: var(--light);
-        color: var(--black);
-    }
-
-    .sidebar .collapse li::after {
-        content: '';
-        display: block;
-        margin-right: auto;
-        height: 2px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-    }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
     .toggle-btn {
-        position: fixed;
-        top: 5%;
-        right: 5%;
-        z-index: 999;
         height: 40px;
         width: 40px;
     }
 
     .toggle-btn button {
-        height: 100%;
-        width: 100%;
         font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .offcanvas-header .btn-close {
-        display: none;
-    }
-
-    .offcanvas.offcanvas-start {
-        --bs-offcanvas-width: 500px;
-    }
-
-    /* Aside */
-    aside {
-        /* height: 100vh; */
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-        top: 0px;
-        left: 0px;
-        z-index: 999 !important;
-        overflow: hidden scroll;
-    }
-
-    aside .sidebar {
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     aside .btnname {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: start;
         font-size: 20px;
-        font-weight: 400;
-        font-family: var(--main-font);
     }
 
     .sidebar ul li a {
-        color: var(--light);
-        padding-bottom: 5px;
-        font-weight: 500;
-        font-size: 15px;
-        transition: 0.3s ease-in-out;
-        border-bottom: none;
+        font-size: 14px;
     }
 
-    .sidebar .collapse li:hover::after {
-        width: 50%;
-        background: var(--light);
-        color: var(--black);
-    }
-
-    .sidebar .collapse li::after {
-        content: '';
-        display: block;
-        margin-right: auto;
-        height: 2px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-    }
 }
 
 @media screen and (max-width: 767px) {
 
     .toggle-btn {
-        position: fixed;
-        top: 5%;
-        right: 5%;
-        z-index: 999;
         height: 30px;
         width: 30px;
     }
 
     .toggle-btn button {
-        height: 100%;
-        width: 100%;
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .offcanvas.offcanvas-start {
-        --bs-offcanvas-width: 500px;
-    }
-
-    /* Aside */
-    aside {
-        /* height: 100vh; */
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-        top: 0px;
-        left: 0px;
-        z-index: 999 !important;
-        overflow: hidden scroll;
-    }
-
-    aside .sidebar {
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        font-size: 14px;
     }
 
     aside .btnname {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: start;
         font-size: 20px;
-        font-weight: 400;
-        font-family: var(--main-font);
     }
 
     .sidebar ul li a {
-        color: var(--light);
-        padding-bottom: 5px;
-        font-weight: 500;
-        font-size: 15px;
-        transition: 0.3s ease-in-out;
-        border-bottom: none;
+        font-size: 14px;
     }
 
-    .sidebar .collapse li:hover::after {
-        width: 50%;
-        background: var(--light);
-        color: var(--black);
-    }
-
-    .sidebar .collapse li::after {
-        content: '';
-        display: block;
-        margin-right: auto;
-        height: 2px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-    }
 }

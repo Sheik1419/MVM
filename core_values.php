@@ -26,7 +26,7 @@
                 <!-- <video data-src="./assets/videos/Maharishi_School_2.mp4" type="video/mp4" autoplay muted loop preload="none">
                 </video> -->
                 <div class="headercntnt">
-                    <img data-src="./assets/images/logo_main.png" class="lazy mb-4" height="100px" alt="">
+                    <img data-src="./assets/images/logo_main.png" class="bg-white p-2 rounded-circle lazy mb-4" height="100px" alt="">
                     <h6 class="mb-4" data-aos="fade-up" data-aos-delay="100">Our Core Values</h6>
                     <h3 class="mb-4" data-aos="fade-up" data-aos-delay="200">Guiding hearts, Building strong futures
                     </h3>

@@ -4,8 +4,8 @@
     .newscardshead h3,
     .awardshead h3 {
         color: var(--primary);
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 30px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
         margin-bottom: 30px !important;
@@ -43,15 +43,15 @@
     .header .headerdiv .headercntnt h6 {
         color: var(--light);
         font-size: 14px;
-        font-weight: 500;
+        font-weight: var(--fw-md);
         text-transform: uppercase;
         text-align: center;
     }
 
     .header .headerdiv .headercntnt h3 {
         color: var(--light);
-        font-size: 50px;
-        font-weight: 400;
+        font-size: 35px;
+        font-weight: var(--fw-sm);
         text-transform: capitalize;
         font-family: var(--main-font);
         width: 90%;
@@ -69,22 +69,22 @@
         margin: auto;
         display: grid;
         grid-template-columns: 30% 65%;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-between;
     }
 
     .aboutleft h2 {
         color: var(--light);
-        font-weight: 400;
-        font-size: 35px;
+        font-weight: var(--fw-sm);
+        font-size: 30px;
         font-family: var(--main-font);
         text-align: center;
     }
 
     .aboutright h6 {
         color: var(--light);
-        font-weight: 400;
-        font-size: 15px;
+        font-weight: var(--fw-sm);
+        font-size: 14px;
         line-height: 25px;
     }
 
@@ -103,8 +103,8 @@
 
     .aboutcard .col-sm-12 h3 {
         color: var(--light);
-        font-size: 25px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
@@ -112,10 +112,10 @@
 
     .aboutcard .col-sm-12 h6 {
         color: var(--light);
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: var(--fw-sm);
         text-align: center;
-        line-height: 23px;
+        line-height: 25px;
     }
 
     /* Life On Campus */
@@ -137,8 +137,8 @@
 
     .lifehead h3 {
         color: var(--light);
-        font-size: 45px;
-        font-weight: 400;
+        font-size: 35px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
@@ -160,8 +160,8 @@
 
     .beyonddiv h3 {
         color: var(--light);
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 30px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
     }
@@ -170,10 +170,10 @@
         width: 85%;
         margin: auto;
         color: var(--light);
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: var(--fw-sm);
         text-align: center;
-        line-height: 23px;
+        line-height: 25px;
     }
 
     /* Learning */
@@ -203,22 +203,22 @@
 
     .learningct h5 {
         color: var(--secondary);
-        font-size: 19px;
-        font-weight: 600;
+        font-size: 20px;
+        font-weight: var(--fw-lg);
         text-transform: uppercase;
     }
 
     .learningct h3 {
         color: var(--primary);
-        font-size: 43px;
-        font-weight: 400;
+        font-size: 35px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .learningct h6 {
         color: var(--dark);
         font-size: 16px;
-        font-weight: 450;
+        font-weight: var(--fw-sm);
         line-height: 25px;
         width: 80%;
         margin: auto !important;
@@ -247,15 +247,15 @@
 
     .cardsdiv h3 {
         color: var(--primary);
-        font-size: 25px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .cardsdiv h6 {
         color: var(--dark);
-        font-size: 15px;
-        font-weight: 450;
+        font-size: 14px;
+        font-weight: var(--fw-sm);
         line-height: 25px;
         width: 85%;
     }
@@ -284,12 +284,14 @@
         position: absolute;
         top: -20%;
         left: 5%;
+        object-fit: cover;
+        object-position: center;
     }
 
     .messageright h5 {
         color: var(--light);
         font-size: 16px;
-        font-weight: 600;
+        font-weight: var(--fw-lg);
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
@@ -297,15 +299,15 @@
     .messageright h4 {
         width: 85%;
         color: var(--light);
-        font-size: 35px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .messageright h6 {
         color: var(--light);
         font-size: 14px;
-        font-weight: 450;
+        font-weight: var(--fw-sm);
         line-height: 25px;
     }
 
@@ -378,16 +380,16 @@
 
     .campussaysright h3 {
         color: var(--primary);
-        font-size: 45px;
-        font-weight: 400;
+        font-size: 30px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .campussaysright h6 {
         color: var(--dark);
         font-size: 16px;
-        font-weight: 450;
-        line-height: 28px;
+        font-weight: var(--fw-sm);
+        line-height: 30px;
         width: 80%;
     }
 
@@ -399,8 +401,8 @@
     .newscardshead h3,
     .awardshead h3 {
         color: var(--primary);
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
         margin-bottom: 30px !important;
@@ -438,19 +440,19 @@
 
     .header .headerdiv .headercntnt h6 {
         color: var(--light);
-        font-size: 13px;
-        font-weight: 500;
+        font-size: 12px;
+        font-weight: var(--fw-md);
         text-transform: uppercase;
         text-align: center;
     }
 
     .header .headerdiv .headercntnt h3 {
         color: var(--light);
-        font-size: 45px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: var(--fw-sm);
         text-transform: capitalize;
         font-family: var(--main-font);
-        width: 70%;
+        width: 90%;
         text-align: center;
     }
 
@@ -465,23 +467,23 @@
         margin: auto;
         display: grid;
         grid-template-columns: 30% 65%;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-between;
     }
 
     .aboutleft h2 {
         color: var(--light);
-        font-weight: 400;
-        font-size: 30px;
+        font-weight: var(--fw-sm);
+        font-size: 25px;
         font-family: var(--main-font);
         text-align: center;
     }
 
     .aboutright h6 {
         color: var(--light);
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 23px;
+        font-weight: var(--fw-sm);
+        font-size: 12px;
+        line-height: 25px;
     }
 
     .about hr {
@@ -499,8 +501,8 @@
 
     .aboutcard .col-sm-12 h3 {
         color: var(--light);
-        font-size: 23px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
@@ -508,10 +510,10 @@
 
     .aboutcard .col-sm-12 h6 {
         color: var(--light);
-        font-size: 13px;
-        font-weight: 400;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         text-align: center;
-        line-height: 23px;
+        line-height: 25px;
     }
 
     /* Life On Campus */
@@ -533,8 +535,8 @@
 
     .lifehead h3 {
         color: var(--light);
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
@@ -556,8 +558,8 @@
 
     .beyonddiv h3 {
         color: var(--light);
-        font-size: 35px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
     }
@@ -566,10 +568,10 @@
         width: 90%;
         margin: auto;
         color: var(--light);
-        font-size: 13px;
-        font-weight: 400;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         text-align: center;
-        line-height: 23px;
+        line-height: 25px;
     }
 
     /* Learning */
@@ -600,21 +602,21 @@
     .learningct h5 {
         color: var(--secondary);
         font-size: 16px;
-        font-weight: 600;
+        font-weight: var(--fw-lg);
         text-transform: uppercase;
     }
 
     .learningct h3 {
         color: var(--primary);
-        font-size: 37px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .learningct h6 {
         color: var(--dark);
-        font-size: 13px;
-        font-weight: 450;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         line-height: 20px;
         width: 90%;
         margin: auto !important;
@@ -643,15 +645,15 @@
 
     .cardsdiv h3 {
         color: var(--primary);
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .cardsdiv h6 {
         color: var(--dark);
-        font-size: 13px;
-        font-weight: 450;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         line-height: 20px;
         width: 85%;
     }
@@ -681,28 +683,30 @@
         top: -15%;
         left: 5%;
         height: 450px !important;
+        object-fit: cover;
+        object-position: center;
     }
 
     .messageright h5 {
         color: var(--light);
         font-size: 14px;
-        font-weight: 600;
+        font-weight: var(--fw-lg);
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
 
     .messageright h4 {
-        width: 90%;
+        width: 100%;
         color: var(--light);
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .messageright h6 {
         color: var(--light);
         font-size: 12px;
-        font-weight: 450;
+        font-weight: var(--fw-sm);
         line-height: 25px;
     }
 
@@ -731,7 +735,7 @@
     .newscard h6 {
         color: var(--dark);
         width: 90%;
-        font-size: 13px;
+        font-size: 12px;
         margin: auto;
         text-align: center;
     }
@@ -776,15 +780,15 @@
 
     .campussaysright h3 {
         color: var(--primary);
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .campussaysright h6 {
         color: var(--dark);
-        font-size: 13px;
-        font-weight: 450;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         line-height: 20px;
         width: 80%;
     }
@@ -797,8 +801,8 @@
     .newscardshead h3,
     .awardshead h3 {
         color: var(--primary);
-        font-size: 35px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
         margin-bottom: 30px !important;
@@ -837,16 +841,16 @@
 
     .header .headerdiv .headercntnt h6 {
         color: var(--light);
-        font-size: 13px;
-        font-weight: 500;
+        font-size: 12px;
+        font-weight: var(--fw-md);
         text-transform: uppercase;
         text-align: center;
     }
 
     .header .headerdiv .headercntnt h3 {
         color: var(--light);
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         text-transform: capitalize;
         font-family: var(--main-font);
         width: 100%;
@@ -877,8 +881,8 @@
 
     .aboutleft h2 {
         color: var(--light);
-        font-weight: 400;
-        font-size: 30px;
+        font-weight: var(--fw-sm);
+        font-size: 20px;
         font-family: var(--main-font);
         text-align: center;
         margin-bottom: 10px !important;
@@ -886,9 +890,9 @@
 
     .aboutright h6 {
         color: var(--light);
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 23px;
+        font-weight: var(--fw-sm);
+        font-size: 12px;
+        line-height: 25px;
         text-align: center;
     }
 
@@ -907,8 +911,8 @@
 
     .aboutcard .col-sm-12 h3 {
         color: var(--light);
-        font-size: 23px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
@@ -916,10 +920,10 @@
 
     .aboutcard .col-sm-12 h6 {
         color: var(--light);
-        font-size: 13px;
-        font-weight: 400;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         text-align: center;
-        line-height: 23px;
+        line-height: 25px;
         margin-bottom: 15px !important;
     }
 
@@ -942,8 +946,8 @@
 
     .lifehead h3 {
         color: var(--light);
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-transform: uppercase;
         text-align: center;
@@ -965,8 +969,8 @@
 
     .beyonddiv h3 {
         color: var(--light);
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
     }
@@ -976,9 +980,9 @@
         margin: auto;
         color: var(--light);
         font-size: 12px;
-        font-weight: 400;
+        font-weight: var(--fw-sm);
         text-align: center;
-        line-height: 23px;
+        line-height: 25px;
     }
 
     /* Learning */
@@ -1009,21 +1013,21 @@
     .learningct h5 {
         color: var(--secondary);
         font-size: 16px;
-        font-weight: 600;
+        font-weight: var(--fw-lg);
         text-transform: uppercase;
     }
 
     .learningct h3 {
         color: var(--primary);
-        font-size: 37px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
     }
 
     .learningct h6 {
         color: var(--dark);
-        font-size: 13px;
-        font-weight: 450;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         line-height: 20px;
         width: 90%;
         margin: auto !important;
@@ -1050,16 +1054,16 @@
 
     .cardsdiv h3 {
         color: var(--primary);
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         margin-top: 20px;
     }
 
     .cardsdiv h6 {
         color: var(--dark);
-        font-size: 13px;
-        font-weight: 450;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         line-height: 20px;
         width: 85%;
     }
@@ -1088,6 +1092,8 @@
     .messageleft img {
         height: 100% !important;
         margin-bottom: 30px;
+        object-fit: cover;
+        object-position: center;
     }
 
     .messageright {
@@ -1100,16 +1106,16 @@
     .messageright h5 {
         color: var(--light);
         font-size: 14px;
-        font-weight: 600;
+        font-weight: var(--fw-lg);
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
 
     .messageright h4 {
-        width: 90%;
+        width: 100%;
         color: var(--light);
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
     }
@@ -1117,7 +1123,7 @@
     .messageright h6 {
         color: var(--light);
         font-size: 12px;
-        font-weight: 450;
+        font-weight: var(--fw-sm);
         line-height: 25px;
         text-align: center;
     }
@@ -1148,7 +1154,7 @@
     .newscard h6 {
         color: var(--dark);
         width: 90%;
-        font-size: 13px;
+        font-size: 12px;
         margin: auto;
         text-align: center;
     }
@@ -1205,16 +1211,16 @@
 
     .campussaysright h3 {
         color: var(--primary);
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: var(--fw-sm);
         font-family: var(--main-font);
         text-align: center;
     }
 
     .campussaysright h6 {
         color: var(--dark);
-        font-size: 13px;
-        font-weight: 450;
+        font-size: 12px;
+        font-weight: var(--fw-sm);
         line-height: 20px;
         text-align: center;
         width: 80%;
