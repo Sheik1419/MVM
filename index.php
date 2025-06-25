@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | MRS</title>
+    <title>Home | Maharishi</title>
 
     <!-- Style CDN -->
     <?php include('./cdn_style.php'); ?>
@@ -30,8 +30,10 @@
                     <h6 class="mb-4" data-aos="fade-up" data-aos-delay="200">Welcome to Maharishi Vidya Mandir</h6>
                     <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Nurturing Minds. Building Character.
                         Awakening Consciousness.</h3>
-                    <button class="headbtn mb-4" data-aos="fade-up" data-aos-delay="400">Explore Our Programs <i
-                            class="fas fa-arrow-right ps-1"></i></button>
+                    <a href="./programs.php">
+                        <button class="headbtn mb-4" data-aos="fade-up" data-aos-delay="400">Explore Our Programs <i
+                                class="fas fa-arrow-right ps-1"></i></button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -54,8 +56,10 @@
                         We aim to bring out the best in every child — intellectually, emotionally, physically, and
                         spiritually.
                     </h6>
-                    <button class="headbtn" data-aos="fade-down" data-aos-delay="400">About Us <i
-                            class="fas fa-arrow-right ps-1"></i></button>
+                    <a href="./about_us.php">
+                        <button class="headbtn" data-aos="fade-down" data-aos-delay="400">About Us <i
+                                class="fas fa-arrow-right ps-1"></i></button>
+                    </a>
                 </div>
             </div>
 
@@ -261,7 +265,7 @@
 
 <script>
     // Header Carousel
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         new Splide('#carousel1', {
             type: 'fade',
             perPage: 1,
@@ -274,7 +278,7 @@
 
 <script>
     // Awards Carousel
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         new Splide('#carousel2', {
             type: 'loop',
             perPage: 6,

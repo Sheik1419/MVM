@@ -93,7 +93,7 @@
                         </button>
                         <div class="collapse" id="collapse5">
                             <ul class="btn-toggle-nav list-unstyled text-start ps-3 pe-0 pb-3">
-                                <li><a href="./certificates.php" class="d-inline-flex text-decoration-none rounded mt-2">Certificates</a>
+                                <li><a href="./certificates.php" class="d-inline-flex text-decoration-none rounded mt-2">Certifications</a>
                                 </li>
                                 <!-- <li><a href="" class="d-inline-flex text-decoration-none rounded mt-1">Summer Camp</a>
                                 </li> -->

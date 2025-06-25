@@ -3,6 +3,7 @@
 .headbtn {
     background-color: var(--secondary);
     color: var(--light);
+    font-size: 12px;
     font-weight: var(--fw-md);
     border: 2px solid var(--secondary);
     border-radius: 5px;
@@ -36,7 +37,25 @@
     padding: 10px 15px 10px 0px;
 }
 
+/* Modal Button */
+.modalbtn {
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 14px;
+    font-weight: var(--fw-md);
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 5px 20px;
+}
+
 /* Hover */
+.modalbtn:hover {
+    background-color: var(--light);
+    color: var(--dark);
+    transition: var(--transition);
+}
+
 .headbtn:hover {
     background-color: var(--light);
     color: var(--secondary);
@@ -44,34 +63,13 @@
 }
 
 @media screen and (min-width: 1023px) {
-    .headbtn {
-        font-size: 12px;
-    }
-
     .navbar-btn {
         font-size: 30px;
     }
-
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-    .headbtn {
-        font-size: 12px;
-    }
-
+@media screen and (max-width: 1023px) {
     .navbar-btn {
         font-size: 20px;
     }
-
-}
-
-@media screen and (max-width: 767px) {
-    .headbtn {
-        font-size: 12px;
-    }
-
-    .navbar-btn {
-        font-size: 20px;
-    }
-
 }

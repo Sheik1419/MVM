@@ -125,9 +125,13 @@ aside .btnname {
 
 @media screen and (max-width: 767px) {
 
+    .offcanvas.offcanvas-start {
+        --bs-offcanvas-width: 275px;
+    }
+
     .toggle-btn {
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
     }
 
     .toggle-btn button {
@@ -135,7 +139,7 @@ aside .btnname {
     }
 
     aside .btnname {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .sidebar ul li a {

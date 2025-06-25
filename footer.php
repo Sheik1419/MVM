@@ -60,10 +60,10 @@
                     <form>
                         <h5 data-aos="fade-down" data-aos-delay="100">Campus</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href=""
-                                    class="p-0">Academic Facilities</a></li>
-                            <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="300"><a href=""
-                                    class="p-0">Summer Camp</a></li>
+                            <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="200"><a href="./certificates.php"
+                                    class="p-0">Certifications</a></li>
+                            <!-- <li class="nav-item mb-2" data-aos="fade-down" data-aos-delay="300"><a href=""
+                                    class="p-0">Summer Camp</a></li> -->
                         </ul>
                     </form>
                 </div>

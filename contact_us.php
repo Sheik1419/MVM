@@ -5,7 +5,6 @@ require 'vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-
 include('./conn.php');
 
 if (isset($_POST['new_enquiry'])) {
@@ -16,19 +15,12 @@ if (isset($_POST['new_enquiry'])) {
         $enquiry[$key] = mysqli_real_escape_string($conn, trim($value));
     }
     extract($enquiry);
-
-
-
     $c_on = date('Y-m-d H:i:s');
-
     $new_enq = "INSERT INTO `contact_enq` (`f_name`, `l_name`, `email`, `ph_no`, `message`, `status`, `c_on`, `c_by`)
-                        VALUES ('$f_name', '$l_name', '$email', '$ph_no', '$message', '1', '$c_on', 'Admin')";
+        VALUES ('$f_name', '$l_name', '$email', '$ph_no', '$message', '1', '$c_on', 'Admin')";
     $sts_enq = mysqli_query($conn, $new_enq);
-
     if ($sts_enq) {
-
         $mail = new PHPMailer(true);
-
         try {
             // Server settings
             $mail->isSMTP();
@@ -38,25 +30,19 @@ if (isset($_POST['new_enquiry'])) {
             $mail->Password = 'harlecvurtpwkwvw';   // Gmail App Password
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
-
             // Recipients
             $mail->setFrom($email, $f_name . ' ' . 'From Contact Form');
             $mail->addAddress('naveenprabakaran2522@gmail.com'); // your receiving address
-
             // Content
             $mail->Subject = 'New Enquiry from ' . $f_name;
             $mail->Body = "Name: $f_name $l_name\nEmail: $email\nPhone: $ph_no\n\nMessage:\n$message";
-
             $mail->send();
-            // e/cho "Thank you! Your enquiry has been sent.";
         } catch (Exception $e) {
             // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     } else {
-
         // echo "Error: " . $stmt->error;
     }
-
 }
 ?>
 <!DOCTYPE html>

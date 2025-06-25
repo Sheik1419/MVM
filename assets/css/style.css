@@ -41,3 +41,50 @@ li {
 label span {
     color: #ff0000 !important;
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-ms-clear {
+    display: none;
+}
+
+/* Floating Button */
+.icon-container {
+    z-index: 90;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon {
+    height: 50px;
+    position: fixed;
+    right: 2%;
+    cursor: pointer;
+}
+
+.icon.reachout {
+    animation: rotate 20s infinite;
+    bottom: 5%;
+}
+
+.icon.whatsapp {
+    bottom: 14%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

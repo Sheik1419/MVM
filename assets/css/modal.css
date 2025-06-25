@@ -1,0 +1,69 @@
+@media screen and (min-width: 767px) and (max-width: 899px) {
+    .modal {
+        --bs-modal-width: 700px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .modal {
+        --bs-modal-width: 900px;
+    }
+}
+
+.modal-content {
+    border-radius: 12px !important;
+}
+
+.modalinputdiv h3 {
+    font-family: var(--main-font);
+    font-weight: var(--fw-sm);
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.modalinputdiv {
+    padding: 5px 20px 0px 20px;
+}
+
+.modal h4 {
+    color: var(--dark);
+    font-weight: var(--fw-xl);
+    font-size: 18px;
+}
+
+.modal form label {
+    color: var(--light-dark);
+    font-size: 14px;
+    font-weight: var(--fw-sm);
+}
+
+.modal form input,
+.modal form textarea,
+.modal form select {
+    border: 1px solid #00000038;
+    background-color: var(--light);
+    font-size: 14px;
+    font-weight: var(--fw-md);
+}
+
+.modal form select option {
+    font-size: 13px;
+    font-weight: var(--fw-lg);
+}
+
+@media screen and (min-width: 767px) {
+    .modal img {
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .modal img {
+        height: 300px !important;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
