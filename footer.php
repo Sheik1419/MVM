@@ -6,7 +6,7 @@
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2">
                     <div class="d-flex justify-content-start align-items-start flex-column" id="cmpnyinfo">
                         <div class="col footerlogo">
-                            <img data-src="./assets/images/logo_white.png" class="lazy d-flex mx-auto rounded-3"
+                            <img data-src="./assets/images/logo_main.png" class="lazy d-flex mx-auto bg-white rounded-2 p-1"
                                 height="100px" alt="" data-aos="fade-down" data-aos-delay="100"><br>
                         </div>
                         <!-- <h5 class="d-flex align-items-center gap-1">
@@ -68,30 +68,6 @@
                     </form>
                 </div>
 
-                <!-- <div class="col-sm-12 col-md-3 col-xl-3 mx-auto mb-2"></div>
-
-                <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>Admissions</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="" class="p-0">Tuition & Fees</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>Community</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="" class="p-0">Parent Portal</a></li>
-                        <li class="nav-item mb-2"><a href="" class="p-0">Alumni Portal</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
-                    <h5>Careers</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="" class="p-0">Career Guidance & Counselling</a></li>
-                    </ul>
-                </div> -->
-
                 <div class="col-sm-12 col-md-2 col-xl-2 mx-auto mb-2 footerheadings">
                     <h5 data-aos="fade-down" data-aos-delay="100">Contact Us</h5>
                     <ul class="nav flex-column">
@@ -118,7 +94,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" target="__blank" id="instagram" data-bs-toggle="tooltip" data-bs-placement="right"
+                        <a href="https://www.instagram.com/maharishividyamandircbse.salem?igsh=eG9yNDE3dDBxbjQz" target="__blank" id="instagram" data-bs-toggle="tooltip" data-bs-placement="right"
                             data-bs-title="Instagram" data-aos="fade-down" data-aos-delay="300">
                             <div class="brandicons">
                                 <i class="fa-brands fa-instagram" data-aos="fade-down" data-aos-delay="400"></i>
@@ -126,7 +102,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" target="__blank" id="youtube" data-bs-toggle="tooltip" data-bs-placement="right"
+                        <a href="https://www.youtube.com/channel/UCf_ADPsVTPphD5Vk6qHl48Q" target="__blank" id="youtube" data-bs-toggle="tooltip" data-bs-placement="right"
                             data-bs-title="YouTube" data-aos="fade-down" data-aos-delay="500">
                             <div class="brandicons">
                                 <i class="fa-brands fa-youtube" data-aos="fade-down" data-aos-delay="600"></i>

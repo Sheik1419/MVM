@@ -9,7 +9,7 @@
 .toggle-btn {
     position: fixed;
     top: 5%;
-    right: 5%;
+    right: 2%;
     z-index: 999;
 }
 
@@ -23,10 +23,6 @@
 
 .offcanvas-header .btn-close {
     display: none;
-}
-
-.offcanvas.offcanvas-start {
-    --bs-offcanvas-width: 500px;
 }
 
 /* Aside */
@@ -79,6 +75,10 @@ aside .btnname {
     width: 0px;
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
+}
+
+.offcanvas.offcanvas-start {
+    --bs-offcanvas-width: 400px;
 }
 
 @media screen and (min-width: 1023px) {

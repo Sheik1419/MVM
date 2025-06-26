@@ -3,7 +3,7 @@
     <a data-bs-toggle="modal" data-bs-target="#allPagePopup">
         <img data-src="./assets/images/MVM_Icon.png" data-bs-toggle="tooltip" data-bs-title="Enquire Now" class="lazy icon reachout">
     </a>
-    <a href="" target="_blank">
+    <a href="https://wa.me/917373008666" target="_blank">
         <img data-src="./assets/images/whatsapp.png" data-bs-toggle="tooltip" data-bs-title="WhatsApp" class="lazy icon whatsapp">
     </a>
 </div>

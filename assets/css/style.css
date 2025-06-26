@@ -71,7 +71,7 @@ input[type="number"]::-ms-clear {
 }
 
 .icon.reachout {
-    animation: rotate 20s infinite;
+    /* animation: rotate 20s infinite; */
     bottom: 5%;
 }
 
